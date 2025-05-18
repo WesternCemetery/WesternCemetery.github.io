@@ -96,8 +96,8 @@
     const map = L.map('map', {
       center: [33.0475, -93.3418],
       zoom: 17,
-      minZoom: 14,
-      maxZoom: 19,  // Prevents zooming into unsupported levels
+      minZoom: 16,
+      maxZoom: 18,  // Prevents zooming into unsupported levels
       layers: [esriSat]
     });
 
@@ -126,14 +126,22 @@
               return nameMatch && yearMatch;
             },
             onEachFeature: function (feature, layer) {
-              const p = feature.properties;
-              let popup = `<b>${p.name}</b><br>`;
-              popup += p.birth ? `Born: ${p.birth}<br>` : '';
-              popup += p.death ? `Died: ${p.death}<br>` : '';
-              popup += p.plot ? `Plot: ${p.plot}<br>` : '';
-              popup += p.notes ? `<i>${p.notes}</i>` : '';
-              layer.bindPopup(popup);
-            },
+            const p = feature.properties;
+            let popup = `<b>${p.name}</b><br>`;
+            popup += p.birth ? `Born: ${p.birth}<br>` : '';
+            popup += p.death ? `Died: ${p.death}<br>` : '';
+
+            layer.bindPopup(popup);
+
+            // Show popup on hover
+            layer.on('mouseover', function () {
+              this.openPopup();
+            });
+            layer.on('mouseout', function () {
+              this.closePopup();
+            });
+            layer.off('click');
+          },
             pointToLayer: function (feature, latlng) {
               return L.circleMarker(latlng, {
                 radius: 5,
