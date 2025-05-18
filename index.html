@@ -3,13 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <title>Western Cemetery Map</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       margin: 0;
       font-family: sans-serif;
+      overflow: hidden; /* Prevent scrolling past header */
     }
     header {
       background-color: #333;
@@ -17,6 +21,9 @@
       padding: 10px 15px;
       display: flex;
       align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
     }
     header img {
       height: 60px;
@@ -36,17 +43,27 @@
       padding: 10px;
       background: #f4f4f4;
       border-bottom: 1px solid #ccc;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
     }
     #controls label {
-      margin-right: 10px;
+      font-weight: bold;
     }
     #controls input,
     #controls select {
-      margin-right: 20px;
       padding: 5px;
+      font-size: 14px;
+    }
+    @media (max-width: 600px) {
+      #controls {
+        flex-direction: column;
+        align-items: flex-start;
+      }
     }
     #map {
-      height: 85vh;
+      height: calc(100vh - 140px);
+      width: 100%;
     }
   </style>
 </head>
@@ -83,6 +100,8 @@
 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script>
+    const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
     const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 20,
       attribution: '&copy; OpenStreetMap contributors'
@@ -96,8 +115,8 @@
     const map = L.map('map', {
       center: [33.0475, -93.3418],
       zoom: 17,
-      minZoom: 16,
-      maxZoom: 18,  // Prevents zooming into unsupported levels
+      minZoom: 14,
+      maxZoom: 19,
       layers: [esriSat]
     });
 
@@ -126,22 +145,19 @@
               return nameMatch && yearMatch;
             },
             onEachFeature: function (feature, layer) {
-            const p = feature.properties;
-            let popup = `<b>${p.name}</b><br>`;
-            popup += p.birth ? `Born: ${p.birth}<br>` : '';
-            popup += p.death ? `Died: ${p.death}<br>` : '';
+              const p = feature.properties;
+              let popup = `<b>${p.name}</b><br>`;
+              popup += p.birth ? `Born: ${p.birth}<br>` : '';
+              popup += p.death ? `Died: ${p.death}<br>` : '';
 
-            layer.bindPopup(popup);
+              layer.bindPopup(popup);
 
-            // Show popup on hover
-            layer.on('mouseover', function () {
-              this.openPopup();
-            });
-            layer.on('mouseout', function () {
-              this.closePopup();
-            });
-            layer.off('click');
-          },
+              if (!isTouch) {
+                layer.on('mouseover', function () { this.openPopup(); });
+                layer.on('mouseout', function () { this.closePopup(); });
+              }
+              // Touch devices: keep click popups
+            },
             pointToLayer: function (feature, latlng) {
               return L.circleMarker(latlng, {
                 radius: 5,
@@ -157,11 +173,11 @@
 
     loadGeoJSON();
 
-    document.getElementById('nameSearch').addEventListener('input', function() {
+    document.getElementById('nameSearch').addEventListener('input', function () {
       loadGeoJSON(this.value, document.getElementById('yearFilter').value);
     });
 
-    document.getElementById('yearFilter').addEventListener('change', function() {
+    document.getElementById('yearFilter').addEventListener('change', function () {
       loadGeoJSON(document.getElementById('nameSearch').value, this.value);
     });
   </script>
