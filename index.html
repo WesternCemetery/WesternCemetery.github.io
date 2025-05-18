@@ -7,14 +7,18 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <style>
-    * {
-      box-sizing: border-box;
-    }
-    body {
+    html, body {
       margin: 0;
+      padding: 0;
+      height: 100%;
       font-family: sans-serif;
-      overflow: hidden; /* Prevent scrolling past header */
     }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
     header {
       background-color: #333;
       color: white;
@@ -25,20 +29,24 @@
       top: 0;
       z-index: 1000;
     }
+
     header img {
       height: 60px;
       margin-right: 15px;
       border-radius: 6px;
     }
+
     header h1 {
       margin: 0;
       font-size: 26px;
     }
+
     header p {
       margin: 2px 0 0;
       font-size: 14px;
       color: #ccc;
     }
+
     #controls {
       padding: 10px;
       background: #f4f4f4;
@@ -47,22 +55,26 @@
       flex-wrap: wrap;
       gap: 10px;
     }
+
     #controls label {
       font-weight: bold;
     }
+
     #controls input,
     #controls select {
       padding: 5px;
       font-size: 14px;
     }
+
     @media (max-width: 600px) {
       #controls {
         flex-direction: column;
         align-items: flex-start;
       }
     }
+
     #map {
-      height: calc(100vh - 140px);
+      flex: 1;
       width: 100%;
     }
   </style>
@@ -150,7 +162,6 @@
               popup += p.birth ? `Born: ${p.birth}<br>` : '';
               popup += p.death ? `Died: ${p.death}<br>` : '';
 
-              // Prevent auto-panning and layout shifts
               layer.bindPopup(popup, { autoPan: false });
 
               if (!isTouch) {
@@ -158,13 +169,24 @@
                 layer.on('mouseout', function () { this.closePopup(); });
               } else {
                 layer.on('click', function () {
-                  // Force scroll to top to keep header visible
                   setTimeout(() => {
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }, 100);
                 });
               }
+            },
+            pointToLayer: function (feature, latlng) {
+              return L.circleMarker(latlng, {
+                radius: 5,
+                fillColor: feature.properties.approximate ? '#999' : '#0074D9',
+                color: '#000',
+                weight: 1,
+                fillOpacity: 0.8
+              });
             }
+          }).addTo(map);
+        });
+    }
 
     loadGeoJSON();
 
