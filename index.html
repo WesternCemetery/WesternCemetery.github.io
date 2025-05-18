@@ -5,40 +5,71 @@
     <title>Western Cemetery - Burial Grid</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        body {{ font-family: Arial, sans-serif; padding: 20px; }}
-        h2 {{ margin-top: 40px; }}
-        .section-grid {{
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            line-height: 1.5;
+            margin: 0;
+        }
+        h1 {
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        .toolbar {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+            position: sticky;
+            top: 0;
+            background: white;
+            padding-bottom: 10px;
+            z-index: 100;
+        }
+        #searchBar {
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+        }
+        #exportBtn {
+            padding: 10px 16px;
+            font-size: 16px;
+            width: 100%;
+        }
+        h2 {
+            margin-top: 40px;
+        }
+        .section-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
             gap: 10px;
-        }}
-        .plot {{
+        }
+        .plot {
             border: 1px solid #ccc;
-            padding: 8px;
-            min-height: 80px;
+            padding: 10px;
+            min-height: 100px;
             background: #f9f9f9;
-            font-size: 0.9em;
-        }}
-        .unknown {{ color: #999; font-style: italic; }}
-        #searchBar {{
-            padding: 8px;
-            font-size: 16px;
-            width: 300px;
-            margin-bottom: 20px;
-        }}
-        #exportBtn {{
-            padding: 8px 16px;
-            font-size: 16px;
-            margin-left: 20px;
-        }}
+            font-size: 1em;
+        }
+        .unknown {
+            color: #999;
+            font-style: italic;
+        }
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
     </style>
 </head>
 <body>
     <h1>Western Cemetery Burial Plot Map</h1>
-    <p>Showing available data by section and plot. Unknown plots are placeholders for future updates.</p>
+    <p>Search burials by name or download the layout for offline use.</p>
 
-    <input type="text" id="searchBar" placeholder="Search by name..." />
-    <button id="exportBtn">Download as PDF</button>
+    <div class="toolbar">
+        <input type="text" id="searchBar" placeholder="Search by name..." />
+        <button id="exportBtn">Download as PDF</button>
+    </div>
 
     <div id="cemetery-container"></div>
 
@@ -49,65 +80,69 @@
 
     fetch('burials.json')
         .then(response => response.json())
-        .then(data => {{
-            // Build dictionary of known burials
-            data.forEach(entry => {{
+        .then(data => {
+            data.forEach(entry => {
                 const key = entry.section + entry.plot;
                 knownBurials[key] = entry;
                 const plotNum = parseInt(entry.plot);
-                if (!maxPlotBySection[entry.section] || plotNum > maxPlotBySection[entry.section]) {{
+                if (!maxPlotBySection[entry.section] || plotNum > maxPlotBySection[entry.section]) {
                     maxPlotBySection[entry.section] = plotNum;
-                }}
-            }});
+                }
+            });
 
             renderGrid();
 
             document.getElementById('searchBar').addEventListener('input', renderGrid);
 
-            document.getElementById('exportBtn').addEventListener('click', () => {{
+            document.getElementById('exportBtn').addEventListener('click', () => {
                 html2pdf().from(document.body).save('WesternCemetery_BurialGrid.pdf');
-            }});
-        }});
+            });
+        });
 
-    function renderGrid() {{
+    function renderGrid() {
         const container = document.getElementById('cemetery-container');
         container.innerHTML = '';
         const query = document.getElementById('searchBar').value.toLowerCase();
 
-        Object.keys(maxPlotBySection).sort().forEach(section => {{
-            const sectionDiv = document.createElement('div');
-            sectionDiv.innerHTML = `<h2>Section ${section}</h2>`;
+        Object.keys(maxPlotBySection).sort().forEach(section => {
+            const sectionDetails = document.createElement('details');
+            sectionDetails.open = true;
+
+            const summary = document.createElement('summary');
+            summary.innerText = `Section ${section}`;
+            sectionDetails.appendChild(summary);
+
             const grid = document.createElement('div');
             grid.className = 'section-grid';
 
             const maxPlot = maxPlotBySection[section];
-            for (let i = 1; i <= maxPlot; i++) {{
+            for (let i = 1; i <= maxPlot; i++) {
                 const key = section + i;
                 const plotDiv = document.createElement('div');
                 plotDiv.className = 'plot';
 
-                if (knownBurials[key]) {{
+                if (knownBurials[key]) {
                     const b = knownBurials[key];
                     const content = `<strong>${section}${i}</strong><br>${b.name}<br>${b.birth}–${b.death}`;
-                    if (b.name.toLowerCase().includes(query)) {{
+                    if (b.name.toLowerCase().includes(query)) {
                         plotDiv.innerHTML = content;
                         grid.appendChild(plotDiv);
-                    }} else if (!query) {{
+                    } else if (!query) {
                         plotDiv.innerHTML = content;
                         grid.appendChild(plotDiv);
-                    }}
-                }} else if (!query) {{
+                    }
+                } else if (!query) {
                     plotDiv.innerHTML = `<strong>${section}${i}</strong><br><span class='unknown'>Unknown</span>`;
                     grid.appendChild(plotDiv);
-                }}
-            }}
+                }
+            }
 
-            if (grid.children.length > 0) {{
-                sectionDiv.appendChild(grid);
-                container.appendChild(sectionDiv);
-            }}
-        }});
-    }}
+            if (grid.children.length > 0) {
+                sectionDetails.appendChild(grid);
+                container.appendChild(sectionDetails);
+            }
+        });
+    }
     </script>
 </body>
 </html>
