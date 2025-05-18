@@ -6,11 +6,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <style>
-    #map { height: 100vh; }
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+    #controls {
+      padding: 10px;
+      background: #f4f4f4;
+      border-bottom: 1px solid #ccc;
+    }
+    #controls label {
+      margin-right: 10px;
+    }
+    #controls input,
+    #controls select {
+      margin-right: 20px;
+      padding: 5px;
+    }
+    #map {
+      height: 90vh;
+    }
   </style>
 </head>
 <body>
+  <div id="controls">
+    <label for="nameSearch">Search by Name:</label>
+    <input type="text" id="nameSearch" placeholder="Enter name..." />
+
+    <label for="yearFilter">Filter by Year:</label>
+    <select id="yearFilter">
+      <option value="">-- All Years --</option>
+      <option value="1838">1838</option>
+      <option value="1844">1844</option>
+      <option value="1866">1866</option>
+      <option value="1902">1902</option>
+      <option value="1903">1903</option>
+      <option value="1910">1910</option>
+      <option value="1920">1920</option>
+      <option value="1922">1922</option>
+      <option value="1953">1953</option>
+    </select>
+  </div>
+
   <div id="map"></div>
+
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script>
     const map = L.map('map').setView([33.0475, -93.3418], 17);
@@ -19,30 +58,57 @@
       maxZoom: 20
     }).addTo(map);
 
-    fetch('WesternCemetery_WalkervilleAR.geojson')
-      .then(res => res.json())
-      .then(data => {
-        L.geoJSON(data, {
-          onEachFeature: function (feature, layer) {
-            const p = feature.properties;
-            let popup = `<b>${p.name}</b><br>`;
-            popup += p.birth ? `Born: ${p.birth}<br>` : '';
-            popup += p.death ? `Died: ${p.death}<br>` : '';
-            popup += p.plot ? `Plot: ${p.plot}<br>` : '';
-            popup += p.notes ? `<i>${p.notes}</i>` : '';
-            layer.bindPopup(popup);
-          },
-          pointToLayer: function (feature, latlng) {
-            return L.circleMarker(latlng, {
-              radius: 5,
-              fillColor: feature.properties.approximate ? '#999' : '#0074D9',
-              color: '#000',
-              weight: 1,
-              fillOpacity: 0.8
-            });
-          }
-        }).addTo(map);
-      });
+    let geoLayer;
+
+    function loadGeoJSON(filterName = '', filterYear = '') {
+      fetch('WesternCemetery_WalkervilleAR.geojson')
+        .then(res => res.json())
+        .then(data => {
+          if (geoLayer) geoLayer.remove();
+
+          geoLayer = L.geoJSON(data, {
+            filter: function (feature) {
+              const props = feature.properties;
+              const nameMatch = props.name.toLowerCase().includes(filterName.toLowerCase());
+              let yearMatch = true;
+              if (filterYear) {
+                yearMatch = [props.birth, props.death].some(d => d && d.includes(filterYear));
+              }
+              return nameMatch && yearMatch;
+            },
+            onEachFeature: function (feature, layer) {
+              const p = feature.properties;
+              let popup = `<b>${p.name}</b><br>`;
+              popup += p.birth ? `Born: ${p.birth}<br>` : '';
+              popup += p.death ? `Died: ${p.death}<br>` : '';
+              popup += p.plot ? `Plot: ${p.plot}<br>` : '';
+              popup += p.notes ? `<i>${p.notes}</i>` : '';
+              layer.bindPopup(popup);
+            },
+            pointToLayer: function (feature, latlng) {
+              return L.circleMarker(latlng, {
+                radius: 5,
+                fillColor: feature.properties.approximate ? '#999' : '#0074D9',
+                color: '#000',
+                weight: 1,
+                fillOpacity: 0.8
+              });
+            }
+          }).addTo(map);
+        });
+    }
+
+    // Initial load
+    loadGeoJSON();
+
+    // Event listeners
+    document.getElementById('nameSearch').addEventListener('input', function() {
+      loadGeoJSON(this.value, document.getElementById('yearFilter').value);
+    });
+
+    document.getElementById('yearFilter').addEventListener('change', function() {
+      loadGeoJSON(document.getElementById('nameSearch').value, this.value);
+    });
   </script>
 </body>
 </html>
