@@ -96,6 +96,8 @@
     const map = L.map('map', {
       center: [33.0475, -93.3418],
       zoom: 17,
+      minZoom: 14,
+      maxZoom: 19,  // Prevents zooming into unsupported levels
       layers: [esriSat]
     });
 
