@@ -4,11 +4,33 @@
   <meta charset="utf-8" />
   <title>Western Cemetery Map</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <style>
     body {
       margin: 0;
       font-family: sans-serif;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px 15px;
+      display: flex;
+      align-items: center;
+    }
+    header img {
+      height: 60px;
+      margin-right: 15px;
+      border-radius: 6px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+    header p {
+      margin: 2px 0 0;
+      font-size: 14px;
+      color: #ccc;
     }
     #controls {
       padding: 10px;
@@ -24,11 +46,20 @@
       padding: 5px;
     }
     #map {
-      height: 90vh;
+      height: 85vh;
     }
   </style>
 </head>
 <body>
+
+  <header>
+    <img src="cemetery-logo.png" alt="Western Cemetery Logo" />
+    <div>
+      <h1>Western Cemetery</h1>
+      <p>The oldest cemetery in Columbia County, Arkansas — preserving local heritage and family history</p>
+    </div>
+  </header>
+
   <div id="controls">
     <label for="nameSearch">Search by Name:</label>
     <input type="text" id="nameSearch" placeholder="Enter name..." />
@@ -52,7 +83,6 @@
 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script>
-    // Define base layers
     const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 20,
       attribution: '&copy; OpenStreetMap contributors'
@@ -63,14 +93,12 @@
       attribution: 'Tiles &copy; Esri &mdash; Source: Esri, Earthstar Geographics'
     });
 
-    // Initialize the map
     const map = L.map('map', {
       center: [33.0475, -93.3418],
       zoom: 17,
-      layers: [osm]  // Default to map view
+      layers: [osm]
     });
 
-    // Add layer switcher
     const baseMaps = {
       "Map View": osm,
       "Satellite View": esriSat
@@ -117,10 +145,8 @@
         });
     }
 
-    // Initial load
     loadGeoJSON();
 
-    // Live search and filter
     document.getElementById('nameSearch').addEventListener('input', function() {
       loadGeoJSON(this.value, document.getElementById('yearFilter').value);
     });
