@@ -50,6 +50,7 @@
             min-height: 100px;
             background: #f9f9f9;
             font-size: 1em;
+            cursor: pointer;
         }
         .unknown {
             color: #999;
@@ -59,6 +60,20 @@
             cursor: pointer;
             font-weight: bold;
             font-size: 1.1em;
+        }
+        .plot .details {
+            display: none;
+            margin-top: 5px;
+            font-size: 0.9em;
+        }
+        .plot.expanded .details {
+            display: block;
+        }
+
+        @media print {
+            .toolbar {
+                display: none !important;
+            }
         }
     </style>
 </head>
@@ -95,7 +110,10 @@
             document.getElementById('searchBar').addEventListener('input', renderGrid);
 
             document.getElementById('exportBtn').addEventListener('click', () => {
-                html2pdf().from(document.body).save('WesternCemetery_BurialGrid.pdf');
+                document.querySelector('.toolbar').style.display = 'none';
+                html2pdf().from(document.body).save('WesternCemetery_BurialGrid.pdf').then(() => {
+                    document.querySelector('.toolbar').style.display = 'flex';
+                });
             });
         });
 
@@ -123,18 +141,24 @@
 
                 if (knownBurials[key]) {
                     const b = knownBurials[key];
-                    const content = `<strong>${section}${i}</strong><br>${b.name}<br>${b.birth}–${b.death}`;
+                    const main = `<strong>${section}${i}</strong><br>${b.name}`;
+                    const details = `<div class="details">${b.birth}–${b.death}</div>`;
+                    const full = `${main}${details}`;
                     if (b.name.toLowerCase().includes(query)) {
-                        plotDiv.innerHTML = content;
+                        plotDiv.innerHTML = full;
                         grid.appendChild(plotDiv);
                     } else if (!query) {
-                        plotDiv.innerHTML = content;
+                        plotDiv.innerHTML = full;
                         grid.appendChild(plotDiv);
                     }
                 } else if (!query) {
                     plotDiv.innerHTML = `<strong>${section}${i}</strong><br><span class='unknown'>Unknown</span>`;
                     grid.appendChild(plotDiv);
                 }
+
+                plotDiv.addEventListener('click', () => {
+                    plotDiv.classList.toggle('expanded');
+                });
             }
 
             if (grid.children.length > 0) {
