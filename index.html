@@ -1,202 +1,113 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <title>Western Cemetery Map</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      font-family: sans-serif;
-    }
-
-    body {
-      display: flex;
-      flex-direction: column;
-    }
-
-    header {
-      background-color: #333;
-      color: white;
-      padding: 10px 15px;
-      display: flex;
-      align-items: center;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-
-    header img {
-      height: 60px;
-      margin-right: 15px;
-      border-radius: 6px;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 26px;
-    }
-
-    header p {
-      margin: 2px 0 0;
-      font-size: 14px;
-      color: #ccc;
-    }
-
-    #controls {
-      padding: 10px;
-      background: #f4f4f4;
-      border-bottom: 1px solid #ccc;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-
-    #controls label {
-      font-weight: bold;
-    }
-
-    #controls input,
-    #controls select {
-      padding: 5px;
-      font-size: 14px;
-    }
-
-    @media (max-width: 600px) {
-      #controls {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-    }
-
-    #map {
-      flex: 1;
-      width: 100%;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Western Cemetery - Burial Grid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {{ font-family: Arial, sans-serif; padding: 20px; }}
+        h2 {{ margin-top: 40px; }}
+        .section-grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 10px;
+        }}
+        .plot {{
+            border: 1px solid #ccc;
+            padding: 8px;
+            min-height: 80px;
+            background: #f9f9f9;
+            font-size: 0.9em;
+        }}
+        .unknown {{ color: #999; font-style: italic; }}
+        #searchBar {{
+            padding: 8px;
+            font-size: 16px;
+            width: 300px;
+            margin-bottom: 20px;
+        }}
+        #exportBtn {{
+            padding: 8px 16px;
+            font-size: 16px;
+            margin-left: 20px;
+        }}
+    </style>
 </head>
 <body>
+    <h1>Western Cemetery Burial Plot Map</h1>
+    <p>Showing available data by section and plot. Unknown plots are placeholders for future updates.</p>
 
-  <header>
-    <img src="cemetery-logo.png" alt="Western Cemetery Logo" />
-    <div>
-      <h1>Western Cemetery</h1>
-      <p>The oldest cemetery in Columbia County, Arkansas — preserving local heritage and family history</p>
-    </div>
-  </header>
+    <input type="text" id="searchBar" placeholder="Search by name..." />
+    <button id="exportBtn">Download as PDF</button>
 
-  <div id="controls">
-    <label for="nameSearch">Search by Name:</label>
-    <input type="text" id="nameSearch" placeholder="Enter name..." />
+    <div id="cemetery-container"></div>
 
-    <label for="yearFilter">Filter by Year:</label>
-    <select id="yearFilter">
-      <option value="">-- All Years --</option>
-      <option value="1838">1838</option>
-      <option value="1844">1844</option>
-      <option value="1866">1866</option>
-      <option value="1902">1902</option>
-      <option value="1903">1903</option>
-      <option value="1910">1910</option>
-      <option value="1920">1920</option>
-      <option value="1922">1922</option>
-      <option value="1953">1953</option>
-    </select>
-  </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script>
+    const knownBurials = {{}};
+    let maxPlotBySection = {{}};
 
-  <div id="map"></div>
+    fetch('burials.json')
+        .then(response => response.json())
+        .then(data => {{
+            // Build dictionary of known burials
+            data.forEach(entry => {{
+                const key = entry.section + entry.plot;
+                knownBurials[key] = entry;
+                const plotNum = parseInt(entry.plot);
+                if (!maxPlotBySection[entry.section] || plotNum > maxPlotBySection[entry.section]) {{
+                    maxPlotBySection[entry.section] = plotNum;
+                }}
+            }});
 
-  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <script>
-    const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+            renderGrid();
 
-    const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 20,
-      attribution: '&copy; OpenStreetMap contributors'
-    });
+            document.getElementById('searchBar').addEventListener('input', renderGrid);
 
-    const esriSat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-      maxZoom: 20,
-      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, Earthstar Geographics'
-    });
+            document.getElementById('exportBtn').addEventListener('click', () => {{
+                html2pdf().from(document.body).save('WesternCemetery_BurialGrid.pdf');
+            }});
+        }});
 
-    const map = L.map('map', {
-      center: [33.0475, -93.3418],
-      zoom: 17,
-      minZoom: 14,
-      maxZoom: 19,
-      layers: [esriSat]
-    });
+    function renderGrid() {{
+        const container = document.getElementById('cemetery-container');
+        container.innerHTML = '';
+        const query = document.getElementById('searchBar').value.toLowerCase();
 
-    const baseMaps = {
-      "Map View": osm,
-      "Satellite View": esriSat
-    };
-    L.control.layers(baseMaps).addTo(map);
+        Object.keys(maxPlotBySection).sort().forEach(section => {{
+            const sectionDiv = document.createElement('div');
+            sectionDiv.innerHTML = `<h2>Section ${section}</h2>`;
+            const grid = document.createElement('div');
+            grid.className = 'section-grid';
 
-    let geoLayer;
+            const maxPlot = maxPlotBySection[section];
+            for (let i = 1; i <= maxPlot; i++) {{
+                const key = section + i;
+                const plotDiv = document.createElement('div');
+                plotDiv.className = 'plot';
 
-    function loadGeoJSON(filterName = '', filterYear = '') {
-      fetch('WesternCemetery_WalkervilleAR.geojson')
-        .then(res => res.json())
-        .then(data => {
-          if (geoLayer) geoLayer.remove();
+                if (knownBurials[key]) {{
+                    const b = knownBurials[key];
+                    const content = `<strong>${section}${i}</strong><br>${b.name}<br>${b.birth}–${b.death}`;
+                    if (b.name.toLowerCase().includes(query)) {{
+                        plotDiv.innerHTML = content;
+                        grid.appendChild(plotDiv);
+                    }} else if (!query) {{
+                        plotDiv.innerHTML = content;
+                        grid.appendChild(plotDiv);
+                    }}
+                }} else if (!query) {{
+                    plotDiv.innerHTML = `<strong>${section}${i}</strong><br><span class='unknown'>Unknown</span>`;
+                    grid.appendChild(plotDiv);
+                }}
+            }}
 
-          geoLayer = L.geoJSON(data, {
-            filter: function (feature) {
-              const props = feature.properties;
-              const nameMatch = props.name.toLowerCase().includes(filterName.toLowerCase());
-              let yearMatch = true;
-              if (filterYear) {
-                yearMatch = [props.birth, props.death].some(d => d && d.includes(filterYear));
-              }
-              return nameMatch && yearMatch;
-            },
-            onEachFeature: function (feature, layer) {
-              const p = feature.properties;
-              let popup = `<b>${p.name}</b><br>`;
-              popup += p.birth ? `Born: ${p.birth}<br>` : '';
-              popup += p.death ? `Died: ${p.death}<br>` : '';
-
-              layer.bindPopup(popup, { autoPan: false });
-
-              if (!isTouch) {
-                layer.on('mouseover', function () { this.openPopup(); });
-                layer.on('mouseout', function () { this.closePopup(); });
-              } else {
-                layer.on('click', function () {
-                  setTimeout(() => {
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }, 100);
-                });
-              }
-            },
-            pointToLayer: function (feature, latlng) {
-              return L.circleMarker(latlng, {
-                radius: 5,
-                fillColor: feature.properties.approximate ? '#999' : '#0074D9',
-                color: '#000',
-                weight: 1,
-                fillOpacity: 0.8
-              });
-            }
-          }).addTo(map);
-        });
-    }
-
-    loadGeoJSON();
-
-    document.getElementById('nameSearch').addEventListener('input', function () {
-      loadGeoJSON(this.value, document.getElementById('yearFilter').value);
-    });
-
-    document.getElementById('yearFilter').addEventListener('change', function () {
-      loadGeoJSON(document.getElementById('nameSearch').value, this.value);
-    });
-  </script>
+            if (grid.children.length > 0) {{
+                sectionDiv.appendChild(grid);
+                container.appendChild(sectionDiv);
+            }}
+        }});
+    }}
+    </script>
 </body>
 </html>
