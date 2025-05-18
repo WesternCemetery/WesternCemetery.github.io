@@ -15,16 +15,11 @@
             font-size: 1.5em;
             margin-bottom: 0.5em;
         }
-        .toolbar {
+        .toolbar, .pdf-hide {
             display: flex;
             flex-direction: column;
             gap: 10px;
             margin-bottom: 20px;
-            position: sticky;
-            top: 0;
-            background: white;
-            padding-bottom: 10px;
-            z-index: 100;
         }
         #searchBar {
             padding: 10px;
@@ -71,7 +66,7 @@
         }
 
         @media print {
-            .toolbar {
+            .toolbar, .pdf-hide {
                 display: none !important;
             }
         }
@@ -79,7 +74,7 @@
 </head>
 <body>
     <h1>Western Cemetery Burial Plot Map</h1>
-    <p>Search burials by name or download the layout for offline use.</p>
+    <p class="pdf-hide">Search burials by name or download the layout for offline use.</p>
 
     <div class="toolbar">
         <input type="text" id="searchBar" placeholder="Search by name..." />
@@ -111,8 +106,10 @@
 
             document.getElementById('exportBtn').addEventListener('click', () => {
                 document.querySelector('.toolbar').style.display = 'none';
+                document.querySelector('.pdf-hide').style.display = 'none';
                 html2pdf().from(document.body).save('WesternCemetery_BurialGrid.pdf').then(() => {
                     document.querySelector('.toolbar').style.display = 'flex';
+                    document.querySelector('.pdf-hide').style.display = 'block';
                 });
             });
         });
