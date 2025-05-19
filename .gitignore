@@ -1,5 +1,5 @@
 # Ignore things that are relevant to the project but not necessary to be public at the moment.
-
+parser/
 *.jpg
 *.xlsx
-
+.DS_Store
