@@ -15,7 +15,7 @@
             font-size: 1.5em;
             margin-bottom: 0.5em;
         }
-        .toolbar, .pdf-hide {
+        .toolbar {
             display: flex;
             flex-direction: column;
             gap: 10px;
@@ -30,9 +30,6 @@
             padding: 10px 16px;
             font-size: 16px;
             width: 100%;
-        }
-        h2 {
-            margin-top: 40px;
         }
         .section-grid {
             display: grid;
@@ -64,9 +61,8 @@
         .plot.expanded .details {
             display: block;
         }
-
         @media print {
-            .toolbar, .pdf-hide {
+            .toolbar {
                 display: none !important;
             }
         }
@@ -93,18 +89,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <script>
     const knownBurials = {};
-    let maxPlotBySection = {};
 
     fetch('burials.json')
         .then(response => response.json())
         .then(data => {
             data.forEach(entry => {
-                const key = entry.section + entry.plot;
+                const section = entry.section || "Unknown";
+                const plot = entry.plot || "Unknown";
+                const key = section + plot;
                 knownBurials[key] = entry;
-                const plotNum = parseInt(entry.plot);
-                if (!maxPlotBySection[entry.section] || plotNum > maxPlotBySection[entry.section]) {
-                    maxPlotBySection[entry.section] = plotNum;
-                }
             });
 
             renderGrid();
@@ -123,8 +116,15 @@
         const container = document.getElementById('cemetery-container');
         container.innerHTML = '';
         const query = document.getElementById('searchBar').value.toLowerCase();
+        const sections = {};
 
-        Object.keys(maxPlotBySection).sort().forEach(section => {
+        Object.values(knownBurials).forEach(b => {
+            const section = b.section || "Unknown";
+            if (!sections[section]) sections[section] = [];
+            sections[section].push(b);
+        });
+
+        Object.keys(sections).sort().forEach(section => {
             const sectionDetails = document.createElement('details');
             sectionDetails.open = true;
 
@@ -135,33 +135,26 @@
             const grid = document.createElement('div');
             grid.className = 'section-grid';
 
-            const maxPlot = maxPlotBySection[section];
-            for (let i = 1; i <= maxPlot; i++) {
-                const key = section + i;
+            sections[section].forEach(b => {
                 const plotDiv = document.createElement('div');
                 plotDiv.className = 'plot';
 
-                if (knownBurials[key]) {
-                    const b = knownBurials[key];
-                    const main = `<strong>${section}${i}</strong><br>${b.name}`;
-                    const details = `<div class="details">${b.birth}–${b.death}</div>`;
-                    const full = `${main}${details}`;
-                    if (b.name.toLowerCase().includes(query)) {
-                        plotDiv.innerHTML = full;
-                        grid.appendChild(plotDiv);
-                    } else if (!query) {
-                        plotDiv.innerHTML = full;
-                        grid.appendChild(plotDiv);
-                    }
+                const main = `<strong>${b.section}${b.plot}</strong><br>${b.name}`;
+                const details = `<div class="details">${b.birth}–${b.death}</div>`;
+                const full = `${main}${details}`;
+
+                if (b.name.toLowerCase().includes(query)) {
+                    plotDiv.innerHTML = full;
+                    grid.appendChild(plotDiv);
                 } else if (!query) {
-                    plotDiv.innerHTML = `<strong>${section}${i}</strong><br><span class='unknown'>Unknown</span>`;
+                    plotDiv.innerHTML = full;
                     grid.appendChild(plotDiv);
                 }
 
                 plotDiv.addEventListener('click', () => {
                     plotDiv.classList.toggle('expanded');
                 });
-            }
+            });
 
             if (grid.children.length > 0) {
                 sectionDetails.appendChild(grid);
