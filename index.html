@@ -124,12 +124,52 @@
         container.innerHTML = '';
         const query = document.getElementById('searchBar').value.toLowerCase();
 
-        Object.keys(maxPlotBySection).sort().forEach(section => {
+        const sections = {};
+
+        // Group burials by section
+        Object.values(knownBurials).forEach(b => {
+            if (!sections[b.section]) sections[b.section] = [];
+            sections[b.section].push(b);
+        });
+
+        Object.keys(sections).sort().forEach(section => {
             const sectionDetails = document.createElement('details');
             sectionDetails.open = true;
 
             const summary = document.createElement('summary');
             summary.innerText = `Section ${section}`;
+            sectionDetails.appendChild(summary);
+
+            const grid = document.createElement('div');
+            grid.className = 'section-grid';
+
+            sections[section].forEach(b => {
+                const plotDiv = document.createElement('div');
+                plotDiv.className = 'plot';
+
+                const main = `<strong>${b.section}${b.plot}</strong><br>${b.name}`;
+                const details = `<div class="details">${b.birth}–${b.death}</div>`;
+                const full = `${main}${details}`;
+
+                if (b.name.toLowerCase().includes(query)) {
+                    plotDiv.innerHTML = full;
+                    grid.appendChild(plotDiv);
+                } else if (!query) {
+                    plotDiv.innerHTML = full;
+                    grid.appendChild(plotDiv);
+                }
+
+                plotDiv.addEventListener('click', () => {
+                    plotDiv.classList.toggle('expanded');
+                });
+            });
+
+            if (grid.children.length > 0) {
+                sectionDetails.appendChild(grid);
+                container.appendChild(sectionDetails);
+            }
+        });
+    }`;
             sectionDetails.appendChild(summary);
 
             const grid = document.createElement('div');
