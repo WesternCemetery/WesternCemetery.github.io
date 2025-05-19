@@ -119,61 +119,56 @@
             });
         });
 
-function renderGrid() {
-    const container = document.getElementById('cemetery-container');
-    container.innerHTML = '';
-    const query = document.getElementById('searchBar').value.toLowerCase();
+    function renderGrid() {
+        const container = document.getElementById('cemetery-container');
+        container.innerHTML = '';
+        const query = document.getElementById('searchBar').value.toLowerCase();
 
-    const sections = {};
+        Object.keys(maxPlotBySection).sort().forEach(section => {
+            const sectionDetails = document.createElement('details');
+            sectionDetails.open = true;
 
-    // Group by section, handling empty section names as "Unknown"
-    Object.values(knownBurials).forEach(b => {
-        const sectionKey = b.section && b.section.trim() ? b.section.trim() : "Unknown";
-        if (!sections[sectionKey]) {
-            sections[sectionKey] = [];
-        }
-        sections[sectionKey].push(b);
-    });
+            const summary = document.createElement('summary');
+            summary.innerText = `Section ${section}`;
+            sectionDetails.appendChild(summary);
 
-    Object.keys(sections).sort().forEach(section => {
-        const sectionDetails = document.createElement('details');
-        sectionDetails.open = true;
+            const grid = document.createElement('div');
+            grid.className = 'section-grid';
 
-        const summary = document.createElement('summary');
-        summary.innerText = `Section ${section}`;
-        sectionDetails.appendChild(summary);
+            const maxPlot = maxPlotBySection[section];
+            for (let i = 1; i <= maxPlot; i++) {
+                const key = section + i;
+                const plotDiv = document.createElement('div');
+                plotDiv.className = 'plot';
 
-        const grid = document.createElement('div');
-        grid.className = 'section-grid';
+                if (knownBurials[key]) {
+                    const b = knownBurials[key];
+                    const main = `<strong>${section}${i}</strong><br>${b.name}`;
+                    const details = `<div class="details">${b.birth}–${b.death}</div>`;
+                    const full = `${main}${details}`;
+                    if (b.name.toLowerCase().includes(query)) {
+                        plotDiv.innerHTML = full;
+                        grid.appendChild(plotDiv);
+                    } else if (!query) {
+                        plotDiv.innerHTML = full;
+                        grid.appendChild(plotDiv);
+                    }
+                } else if (!query) {
+                    plotDiv.innerHTML = `<strong>${section}${i}</strong><br><span class='unknown'>Unknown</span>`;
+                    grid.appendChild(plotDiv);
+                }
 
-        sections[section].forEach(b => {
-            const plotDiv = document.createElement('div');
-            plotDiv.className = 'plot';
-
-            const main = `<strong>${b.section}${b.plot}</strong><br>${b.name}`;
-            const details = `<div class="details">${b.birth ?? ''}–${b.death ?? ''}</div>`;
-            const full = `${main}${details}`;
-
-            if (b.name.toLowerCase().includes(query)) {
-                plotDiv.innerHTML = full;
-                grid.appendChild(plotDiv);
-            } else if (!query) {
-                plotDiv.innerHTML = full;
-                grid.appendChild(plotDiv);
+                plotDiv.addEventListener('click', () => {
+                    plotDiv.classList.toggle('expanded');
+                });
             }
 
-            plotDiv.addEventListener('click', () => {
-                plotDiv.classList.toggle('expanded');
-            });
+            if (grid.children.length > 0) {
+                sectionDetails.appendChild(grid);
+                container.appendChild(sectionDetails);
+            }
         });
-
-        if (grid.children.length > 0) {
-            sectionDetails.appendChild(grid);
-            container.appendChild(sectionDetails);
-        }
-    });
-}
-
+    }
     </script>
 </body>
 </html>
