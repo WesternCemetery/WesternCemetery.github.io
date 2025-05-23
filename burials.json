@@ -9,13 +9,13 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Violet Easley Ammons",
+    "name": "Violet “Vy”Easley Ammons",
     "birth": 1920,
     "death": 2011
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "38",
     "name": "Sara Cassels Andrews",
     "birth": 1860,
     "death": 1943
@@ -30,7 +30,7 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Charles Atkinson",
+    "name": "Charles “Cotton” Atkinson",
     "birth": 1932,
     "death": 2019
   },
@@ -56,15 +56,15 @@
     "death": 2006
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "66",
     "name": "David Larry Austin",
     "birth": 1953,
     "death": 1996
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "66",
     "name": "Terry Glen Austin",
     "birth": 1955,
     "death": 1982
@@ -79,7 +79,7 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Robert Allen Authenreath",
+    "name": "Robert Allen “Bob” Authenreath",
     "birth": 1933,
     "death": 2013
   },
@@ -91,15 +91,15 @@
     "death": 2011
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "J L Baker",
-    "birth": "unknown",
-    "death": "unknown"
+    "section": "B",
+    "plot": "18",
+    "name": "J L Baker Birth and death dates unknown.",
+    "birth": null,
+    "death": null
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "50",
     "name": "James Garland Baker",
     "birth": 1941,
     "death": 2009
@@ -107,13 +107,13 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Janice M Talley Baker",
+    "name": "Janice MTalley Baker",
     "birth": 1941,
     "death": 2011
   },
   {
     "section": "unknown",
-    "plot": "unknown",
+    "plot": "Row A22",
     "name": "Bidie Ann Barnard",
     "birth": 1846,
     "death": 1898
@@ -121,41 +121,41 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Charles Edward Barnard",
+    "name": "Charles Edward “Eddie” Barnard",
     "birth": 1953,
     "death": 2021
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Durell Barnard",
+    "section": "B",
+    "plot": "50",
+    "name": "Durell “Dude” Barnard",
     "birth": 1931,
     "death": 1999
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "44",
     "name": "Eunie May Barnard",
     "birth": 1905,
     "death": 1992
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "22",
     "name": "Janett Virginia Monzingo Barnard",
     "birth": 1851,
     "death": 1942
   },
   {
     "section": "unknown",
-    "plot": "unknown",
-    "name": "Jesse Hamilton Barnard",
+    "plot": "Row A22",
+    "name": "Jesse Hamilton Barnard Aug",
     "birth": 1836,
     "death": 1922
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "44",
     "name": "John Edward Barnard",
     "birth": 1905,
     "death": 1977
@@ -168,15 +168,15 @@
     "death": 2012
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Mamie Butts Barnard",
-    "birth": "unknown",
+    "section": "A",
+    "plot": "20",
+    "name": "Mamie Butts Barnardunknown",
+    "birth": 1911,
     "death": 1911
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "50",
     "name": "Virginia Horton Barnard",
     "birth": 1932,
     "death": 2008
@@ -189,15 +189,15 @@
     "death": 2012
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "54",
     "name": "Danny Joe Barnett",
     "birth": 1943,
     "death": 1983
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "54",
     "name": "Deborah Kay Vines Barnett",
     "birth": 1953,
     "death": 2017
@@ -210,9 +210,9 @@
     "death": 2017
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Jesse Paul Beene",
+    "section": "A",
+    "plot": "9",
+    "name": "Jesse Paul “J. P.” Beene",
     "birth": 1913,
     "death": 1981
   },
@@ -233,35 +233,35 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Dorothy Lynell Barnard Berry",
+    "name": "Dorothy Lynell “Nell”Barnard Berry",
     "birth": 1933,
     "death": 2006
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Infant Berry",
-    "birth": "unknown",
-    "death": "unknown"
+    "section": "A",
+    "plot": "15",
+    "name": "Infant Berry Birth and death dates unknown.",
+    "birth": null,
+    "death": null
   },
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "William Douglas Berry",
+    "name": "William Douglas “Doug” Berry",
     "birth": 1932,
     "death": 2010
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "34",
     "name": "Mandie S Bevill",
     "birth": 1855,
     "death": 1929
   },
   {
     "section": "unknown",
-    "plot": "unknown",
-    "name": "Zada Ozelle Modisette Bissell",
+    "plot": "Row B56",
+    "name": "Zada Ozelle “Zadie”Modisette Bissell",
     "birth": 1913,
     "death": 1994
   },
@@ -273,8 +273,8 @@
     "death": 1904
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "29",
     "name": "Christopher Henderson Blalock",
     "birth": 1873,
     "death": 1945
@@ -287,8 +287,8 @@
     "death": 1902
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "30",
     "name": "Effie Irene Bradley Blalock",
     "birth": 1899,
     "death": 1987
@@ -301,9 +301,9 @@
     "death": 1897
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Mary L Williamson Blalock",
+    "section": "A",
+    "plot": "29",
+    "name": "Mary LWilliamson Blalock",
     "birth": 1878,
     "death": 1967
   },
@@ -317,7 +317,7 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Walter Mervin Blalock",
+    "name": "Sgt Walter Mervin Blalock",
     "birth": 1926,
     "death": 1951
   },
@@ -331,20 +331,20 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Horace Eugene Bolton",
+    "name": "Horace Eugene Bolton VVeteran",
     "birth": 1938,
     "death": 2016
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "20",
     "name": "Sybil Bernice Vaughan Bolton",
     "birth": 1920,
     "death": 2016
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "39",
     "name": "Anna Lee Broom Bond",
     "birth": 1878,
     "death": 1967
@@ -352,13 +352,13 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Joseph William Bond",
+    "name": "Joseph William “Joe” Bond",
     "birth": 1876,
     "death": 1954
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "39",
     "name": "Lee Roy Bond",
     "birth": 1906,
     "death": 1946
@@ -366,7 +366,7 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Robert William Borders",
+    "name": "Dr Robert William Borders VVeteran",
     "birth": 1925,
     "death": 2018
   },
@@ -378,29 +378,29 @@
     "death": 1923
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Effie L Caswell Bridwell",
+    "section": "A",
+    "plot": "41",
+    "name": "Effie LCaswell Bridwell",
     "birth": 1906,
     "death": 1984
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "James Clayton Bridwell",
+    "section": "A",
+    "plot": "37",
+    "name": "James Clayton “Jake” Bridwell VVeteran",
     "birth": 1916,
     "death": 1987
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "41",
     "name": "Joseph Edward Bridwell",
     "birth": 1887,
     "death": 1968
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "41",
     "name": "Loy B Bridwell",
     "birth": 1908,
     "death": 1992
@@ -408,27 +408,27 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Sarah Leona Payne Bridwell",
+    "name": "Sarah Leona “Sallie”Payne Bridwell",
     "birth": 1885,
     "death": 1946
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Verna L Jones Bridwell",
+    "section": "A",
+    "plot": "37",
+    "name": "Verna LJones Bridwell",
     "birth": 1912,
     "death": 1977
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "29",
     "name": "Deborah Gale Talley Buckingham",
     "birth": 1960,
     "death": 1984
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "13",
     "name": "Chester Burns",
     "birth": 1914,
     "death": 2004
@@ -441,15 +441,15 @@
     "death": 2007
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "28",
     "name": "Gladys Marie Mayfield Burns",
     "birth": 1908,
     "death": 1981
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "28",
     "name": "Irvin Cardee Burns",
     "birth": 1906,
     "death": 1993
@@ -469,9 +469,9 @@
     "death": 1949
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Marie Ellen McMahen Burns",
+    "section": "A",
+    "plot": "14",
+    "name": "Marie Ellen Mc Mahen Burns",
     "birth": 1919,
     "death": 2003
   },
@@ -483,8 +483,8 @@
     "death": 2019
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "13",
     "name": "Opal Willie Winn Burns",
     "birth": 1914,
     "death": 1979
@@ -511,22 +511,22 @@
     "death": 2003
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "40",
     "name": "Earl Butler",
     "birth": 1927,
     "death": 1988
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Eva O Butler",
-    "birth": "unknown",
+    "section": "A",
+    "plot": "6",
+    "name": "Eva O Butlerunknown",
+    "birth": 1952,
     "death": 1952
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "6",
     "name": "Jerry Douglas Butler",
     "birth": 1950,
     "death": 1981
@@ -534,69 +534,69 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Louis Butler Jr.",
+    "name": "Louis Butler Jr.VVeteran",
     "birth": 1945,
     "death": 2020
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Louis Butler Sr.",
+    "section": "A",
+    "plot": "6",
+    "name": "Louis Butler Sr.VVeteran",
     "birth": 1917,
     "death": 1989
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "6",
     "name": "Neoma Idell Whitley Butler",
     "birth": 1923,
     "death": 1993
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "40",
     "name": "Patricia A Butler",
     "birth": 1941,
     "death": 1994
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "42",
     "name": "Allen Daryel Butts",
     "birth": 1939,
     "death": 1993
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Billie R Greer Butts",
-    "birth": "unknown",
+    "section": "B",
+    "plot": "46",
+    "name": "Billie RGreer Buttsunknown",
+    "birth": 1930,
     "death": 1930
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "40",
     "name": "Clara C Butts",
     "birth": 1906,
     "death": 1975
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "40",
     "name": "Clifford S Butts",
     "birth": 1908,
     "death": 1983
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "20",
     "name": "Frances Elizabeth Clark Butts",
     "birth": 1853,
     "death": 1933
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "46",
     "name": "Gene Austin Butts",
     "birth": 1930,
     "death": 1993
@@ -616,8 +616,8 @@
     "death": 1936
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "40",
     "name": "Johnny A Butts",
     "birth": 1938,
     "death": 1939
@@ -630,8 +630,8 @@
     "death": 1915
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "39",
     "name": "Alva Loy Camp",
     "birth": 1933,
     "death": 1965
@@ -658,15 +658,15 @@
     "death": 2023
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "27",
     "name": "Cora Idella Yates Camp",
     "birth": 1876,
     "death": 1966
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "39",
     "name": "Donna Camp",
     "birth": 1962,
     "death": 1962
@@ -679,29 +679,29 @@
     "death": 2024
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "28",
     "name": "Eunice King Camp",
     "birth": 1913,
     "death": 1997
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "28",
     "name": "Gurvis Conroy Camp",
     "birth": 1913,
     "death": 1993
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Harry L Camp",
-    "birth": "unknown",
+    "section": "A",
+    "plot": "29",
+    "name": "Harry L Campunknown",
+    "birth": 1934,
     "death": 1934
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "18",
     "name": "Hosea Aubry Camp",
     "birth": 1892,
     "death": 1988
@@ -714,8 +714,8 @@
     "death": 1951
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "18",
     "name": "Ollie Mae Vaughan Camp",
     "birth": 1890,
     "death": 1978
@@ -735,15 +735,15 @@
     "death": 1909
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Victoria McAlister Camp",
+    "section": "A",
+    "plot": "29",
+    "name": "Victoria “Vicky”Mc Alister Camp",
     "birth": 1938,
     "death": 1990
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "38",
     "name": "Annie Haynes Campbell",
     "birth": 1919,
     "death": 1979
@@ -758,14 +758,14 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Doyle E. Campbell",
+    "name": "Doyle E. Campbell VVeteran",
     "birth": 1909,
     "death": 1961
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Duglas Leroy Campbell",
+    "section": "A",
+    "plot": "25",
+    "name": "PODuglas Leroy Campbell VVeteran Cenotaph",
     "birth": 1940,
     "death": 1968
   },
@@ -791,15 +791,15 @@
     "death": 1965
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "38",
     "name": "John Monroe Campbell",
     "birth": 1918,
     "death": 1999
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "21",
     "name": "Lee Amanda Butts Campbell",
     "birth": 1876,
     "death": 1960
@@ -819,8 +819,8 @@
     "death": 1946
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "34",
     "name": "Rufus P Campbell",
     "birth": 1895,
     "death": 1979
@@ -833,8 +833,8 @@
     "death": 1950
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "34",
     "name": "Wes Campbell",
     "birth": 1957,
     "death": 1967
@@ -854,22 +854,22 @@
     "death": 2018
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "66",
     "name": "Gerald H Carrol",
     "birth": 1931,
     "death": 1998
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "66",
     "name": "Gerald H Carroll Jr.",
     "birth": 1951,
     "death": 1970
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "66",
     "name": "Peggy Ford Carroll",
     "birth": 1934,
     "death": 2018
@@ -898,7 +898,7 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Eliza J. Harris Carson",
+    "name": "Eliza J.Harris Carson",
     "birth": 1845,
     "death": 1905
   },
@@ -910,32 +910,32 @@
     "death": 1902
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "16",
     "name": "George Harmon Carson",
     "birth": 1842,
     "death": 1898
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "64",
     "name": "Harold Dale Carson",
     "birth": 1917,
     "death": 1971
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "65",
     "name": "Herbert Lonnie Carson",
     "birth": 1894,
     "death": 1976
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Infant Carson",
-    "birth": "unknown",
-    "death": "unknown"
+    "section": "A",
+    "plot": "16",
+    "name": "Infant Carson Birth and death dates unknown.",
+    "birth": null,
+    "death": null
   },
   {
     "section": "unknown",
@@ -952,16 +952,16 @@
     "death": 1884
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "65",
     "name": "Jean Iris Newman Carson",
     "birth": 1927,
     "death": 2008
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Louise C Campbell Carson",
+    "section": "B",
+    "plot": "64",
+    "name": "Louise CCampbell Carson",
     "birth": 1919,
     "death": 2001
   },
@@ -987,71 +987,71 @@
     "death": 1912
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "65",
     "name": "Raymond Irvin Carson",
     "birth": 1921,
     "death": 1975
   },
   {
     "section": "unknown",
-    "plot": "unknown",
+    "plot": "N",
     "name": "Leonard Ray Caskey",
     "birth": 1934,
     "death": 1995
   },
   {
     "section": "unknown",
-    "plot": "unknown",
+    "plot": "N",
     "name": "Ruth Ann Vaughan Caskey",
     "birth": 1934,
     "death": 2020
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "38",
     "name": "Adra Cassels",
     "birth": 1879,
     "death": 1962
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "35",
     "name": "Aurillia Vaughan Caswell",
     "birth": 1916,
     "death": 1969
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "35",
     "name": "Jessie L Caswell",
     "birth": 1906,
     "death": 1982
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "35",
     "name": "Jimmie A Caswell",
     "birth": 1939,
     "death": 1991
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "12",
     "name": "Hallie Mae Franks Chaffin",
     "birth": 1897,
     "death": 1985
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Jamie Roy Chaffin",
+    "section": "A",
+    "plot": "12",
+    "name": "Jamie Roy Chaffin VVeteran",
     "birth": 1925,
     "death": 1998
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "12",
     "name": "Jessie Roy Chaffin",
     "birth": 1902,
     "death": 1972
@@ -1071,9 +1071,9 @@
     "death": 2015
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "John Christopher Charles",
+    "section": "A",
+    "plot": "55",
+    "name": "John Christopher “Little John” Charles",
     "birth": 1971,
     "death": 1999
   },
@@ -1085,37 +1085,37 @@
     "death": 1918
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "17",
     "name": "Nathan Tillman Clements",
     "birth": 1960,
     "death": 1994
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "James Leon Cobb",
+    "section": "B",
+    "plot": "10",
+    "name": "James Leon Cobb VVeteran",
     "birth": 1933,
     "death": 2000
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Juanita McKinnis Cobb",
-    "birth": "unknown",
+    "section": "B",
+    "plot": "10",
+    "name": "Juanita Mc Kinnis Cobbunknown",
+    "birth": 1939,
     "death": 1939
   },
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Mary Catherine Jordan Cochran",
+    "name": "Mary Catherine “Molly”Jordan Cochran",
     "birth": 1862,
     "death": 1949
   },
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Wilbur Bingley Cochran",
+    "name": "Wilbur Bingley “Willie” Cochran",
     "birth": 1854,
     "death": 1930
   },
@@ -1155,15 +1155,15 @@
     "death": 2017
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "24",
     "name": "Eldridge E Compton",
     "birth": 1911,
     "death": 1979
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "24",
     "name": "Erma Nelson Compton",
     "birth": 1917,
     "death": 2003
@@ -1176,15 +1176,15 @@
     "death": 1961
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "36",
     "name": "George R Compton",
     "birth": 1892,
     "death": 1970
   },
   {
     "section": "unknown",
-    "plot": "unknown",
+    "plot": "N/A",
     "name": "Huey Everett Compton",
     "birth": 1937,
     "death": 2003
@@ -1195,7 +1195,6 @@
     "name": "Inez Compton",
     "birth": 1923,
     "death": 1936
-
   },
   {
     "section": "unknown",
@@ -1206,7 +1205,7 @@
   },
   {
     "section": "unknown",
-    "plot": "unknown",
+    "plot": "N",
     "name": "Marvin T Courtney",
     "birth": 1975,
     "death": 2001
@@ -1214,20 +1213,20 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Cecil O Covington",
+    "name": "Cecil O “Wonnie” Covington",
     "birth": 1920,
     "death": 2010
   },
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Florene B Covington",
+    "name": "Florene B “Flo” Covington",
     "birth": 1927,
     "death": 2004
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "26",
     "name": "Casie Leigh Cox",
     "birth": 1984,
     "death": 1984
@@ -1235,7 +1234,7 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Mickey Wayne Cox",
+    "name": "Mickey Wayne “Mick” Cox",
     "birth": 1963,
     "death": 2013
   },
@@ -1249,22 +1248,21 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Mary O. Morgan Craig",
+    "name": "Mary O.Morgan Craig",
     "birth": 1930,
     "death": 2015
   },
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Mira Lawn Craig",
+    "name": "Mira Lawn Craig VVeteran",
     "birth": 1919,
-    "death": 200
-
+    "death": 2009
   },
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Willie Albert Creasy",
+    "name": "Willie Albert “Sam” Creasy VVeteran",
     "birth": 1930,
     "death": 2016
   },
@@ -1277,7 +1275,7 @@
   },
   {
     "section": "unknown",
-    "plot": "unknown",
+    "plot": "A",
     "name": "Kenneth Craig Davidson",
     "birth": 1959,
     "death": 1982
@@ -1299,7 +1297,7 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Cassie T. Green Davis",
+    "name": "Cassie T.Green Davis",
     "birth": 1851,
     "death": 1911
   },
@@ -1348,13 +1346,13 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Johnny B. Dendy",
+    "name": "Johnny B. Dendy VVeteran",
     "birth": 1950,
     "death": 2017
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "30",
     "name": "Lonnie Braxton Dendy",
     "birth": 1917,
     "death": 1969
@@ -1362,13 +1360,13 @@
   {
     "section": "unknown",
     "plot": "unknown",
-    "name": "Lonnie Eddis Dendy",
+    "name": "Lonnie Eddis Dendy VVeteran",
     "birth": 1944,
     "death": 2018
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "B",
+    "plot": "26",
     "name": "Sammy L Dendy",
     "birth": 1957,
     "death": 1997
@@ -1381,6 +1379,4339 @@
     "death": 2014
   },
   {
+    "section": "B",
+    "plot": "26",
+    "name": "Twin Boys Dendy",
+    "birth": 1983,
+    "death": 1983
+  },
+  {
+    "section": "A",
+    "plot": "30",
+    "name": "Velma LSanders Dendy",
+    "birth": 1919,
+    "death": 2011
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "George W. Dennis VVeteran",
+    "birth": 1843,
+    "death": 1922
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "John Raymond Dennis",
+    "birth": 1920,
+    "death": 1922
+  },
+  {
+    "section": "A",
+    "plot": "31",
+    "name": "Lillian Green Dennis",
+    "birth": 1893,
+    "death": 1984
+  },
+  {
+    "section": "A",
+    "plot": "31",
+    "name": "William Emmett Dennis Jr.",
+    "birth": 1934,
+    "death": 1994
+  },
+  {
+    "section": "A",
+    "plot": "31",
+    "name": "William Emmett Dennis Sr.",
+    "birth": 1890,
+    "death": 1971
+  },
+  {
+    "section": "A",
+    "plot": "15",
+    "name": "Mattie Derryberry",
+    "birth": 1900,
+    "death": 1901
+  },
+  {
+    "section": "A",
+    "plot": "47",
+    "name": "Luther Clifford “Buddy” Dison",
+    "birth": 1909,
+    "death": 1988
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ozell Jones Dison",
+    "birth": 1926,
+    "death": 2008
+  },
+  {
+    "section": "A",
+    "plot": "47",
+    "name": "Terri Kathleen Dison",
+    "birth": 1958,
+    "death": 1959
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mary “Louise”Wynne Dobson",
+    "birth": 1939,
+    "death": 2023
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Charles Ray Duck Sr.",
+    "birth": 1939,
+    "death": 2017
+  },
+  {
+    "section": "A",
+    "plot": "40",
+    "name": "Geraldine Talley Duke",
+    "birth": 1925,
+    "death": 2008
+  },
+  {
+    "section": "B",
+    "plot": "34",
+    "name": "Jim Tom “Jimmie” Duke",
+    "birth": 1914,
+    "death": 1997
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "John David Duke",
+    "birth": 1942,
+    "death": 1945
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Leo Estelle Talley Duke",
+    "birth": 1920,
+    "death": 2011
+  },
+  {
+    "section": "A",
+    "plot": "40",
+    "name": "Maurice Duke",
+    "birth": 1922,
+    "death": 1985
+  },
+  {
+    "section": "B",
+    "plot": "64",
+    "name": "James Easonunknown",
+    "birth": 1939,
+    "death": 1939
+  },
+  {
+    "section": "B",
+    "plot": "64",
+    "name": "Patty Carson Eason",
+    "birth": 1939,
+    "death": 1992
+  },
+  {
+    "section": "B",
+    "plot": "13",
+    "name": "John Easterling",
+    "birth": 1909,
+    "death": 1989
+  },
+  {
+    "section": "B",
+    "plot": "42",
+    "name": "Ethel Otreal Griggs Edington",
+    "birth": 1920,
+    "death": 2009
+  },
+  {
+    "section": "B",
+    "plot": "42",
+    "name": "Rev Joseph Malvin Edington VVeteran",
+    "birth": 1917,
+    "death": 1991
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Loretta Dianne Modisette Edwards",
+    "birth": 1946,
+    "death": 2018
+  },
+  {
+    "section": "A",
+    "plot": "27",
+    "name": "Mattie Elizabeth Talley Eli",
+    "birth": 1896,
+    "death": 1977
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Bonnie Dewie Ellison VVeteran",
+    "birth": 1925,
+    "death": 1986
+  },
+  {
+    "section": "A",
+    "plot": "33",
+    "name": "Infant Son Ellison Birth and death dates unknown.",
+    "birth": null,
+    "death": null
+  },
+  {
+    "section": "A",
+    "plot": "33",
+    "name": "Marietta Francille Peterson Ellison",
+    "birth": 1924,
+    "death": 1991
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Parma J.Mc Mahen Ellison",
+    "birth": 1906,
+    "death": 1927
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mattie L.Jordan Evans",
+    "birth": 1862,
+    "death": 1899
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Gloria Janette Modisette Eversunknown",
+    "birth": 1939,
+    "death": 1939
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Howard Ray Evers",
+    "birth": 1914,
+    "death": 2004
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ovie LCampbell Evers",
+    "birth": 1916,
+    "death": 1976
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Quinton Ray Evers",
+    "birth": 1938,
+    "death": 2006
+  },
+  {
+    "section": "B",
+    "plot": "47",
+    "name": "Unknown Fletcher Birth and death dates unknown.",
+    "birth": null,
+    "death": null
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Jimmy Dale Flores",
+    "birth": 1936,
+    "death": 1958
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Johnny Ray Flores VVeteran",
+    "birth": 1938,
+    "death": 2014
+  },
+  {
+    "section": "B",
+    "plot": "23",
+    "name": "Lois Elizabeth Vaughan Flores",
+    "birth": 1935,
+    "death": 2022
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Rita Faye Basinger Flores",
+    "birth": 1945,
+    "death": 2022
+  },
+  {
+    "section": "A",
+    "plot": "44",
+    "name": "Leroy Floyd VVeteran",
+    "birth": 1911,
+    "death": 1963
+  },
+  {
+    "section": "A",
+    "plot": "44",
+    "name": "Willie Mae Payne Floyd",
+    "birth": 1913,
+    "death": 1993
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Sidney “Trapper” Foster",
+    "birth": 1928,
+    "death": 2011
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "June Modisette Foster",
+    "birth": 1929,
+    "death": 2006
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lenora Jordan Foster",
+    "birth": 1868,
+    "death": 1940
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mary Lizzie Foster",
+    "birth": 1906,
+    "death": 1985
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "William C. Foster",
+    "birth": 1902,
+    "death": 1986
+  },
+  {
+    "section": "A",
+    "plot": "10",
+    "name": "Alfred Allen Franks",
+    "birth": 1934,
+    "death": 1982
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Charles Lewis Franks",
+    "birth": 1838,
+    "death": 1902
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Charley Franksunknown",
+    "birth": 1884,
+    "death": 1884
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Chester A. Franks",
+    "birth": 1907,
+    "death": 1931
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Claude E. Franks",
+    "birth": 1868,
+    "death": 1950
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Elijah Franks Jan",
+    "birth": 1798,
+    "death": 1873
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Eva Franks",
+    "birth": 1904,
+    "death": 1904
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Harriet Sophronia Pope Franks",
+    "birth": 1844,
+    "death": 1938
+  },
+  {
+    "section": "B",
+    "plot": "56",
+    "name": "Hattie Belle Green Franks",
+    "birth": 1910,
+    "death": 1996
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Infant Franks",
+    "birth": 1918,
+    "death": 1918
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Infant Son Franks",
+    "birth": 1891,
+    "death": 1891
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Infant Son Franks",
+    "birth": 1905,
+    "death": 1905
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Joel Allen Franks",
+    "birth": 1822,
+    "death": 1903
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "John Franks",
+    "birth": 1862,
+    "death": 1892
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "John Marion Franks",
+    "birth": 1865,
+    "death": 1950
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Johnie H. Franks",
+    "birth": 1905,
+    "death": 1907
+  },
+  {
+    "section": "B",
+    "plot": "56",
+    "name": "Lee Onnie Franks",
+    "birth": 1900,
+    "death": 1984
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lewis Franks",
+    "birth": 1873,
+    "death": 1919
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Louis Amos Franks",
+    "birth": 1893,
+    "death": 1926
+  },
+  {
+    "section": "A",
+    "plot": "12",
+    "name": "Lucy Jane Anderson Franks",
+    "birth": 1870,
+    "death": 1965
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Manuel Franks",
+    "birth": 1898,
+    "death": 1901
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Martha Franks",
+    "birth": 1852,
+    "death": 1918
+  },
+  {
+    "section": "B",
+    "plot": "56",
+    "name": "Minor H Franks",
+    "birth": 1886,
+    "death": 1965
+  },
+  {
+    "section": "B",
+    "plot": "56",
+    "name": "Mirtie A Franks",
+    "birth": 1896,
+    "death": 1980
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Samuel Powell Franks VVeteran",
+    "birth": 1895,
+    "death": 1952
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Thomas H. Franks",
+    "birth": 1878,
+    "death": 1884
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Vatieta Jane “Dimie or Jennie”Dailey Franks May",
+    "birth": 1868,
+    "death": 1891
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Virginia Jane Johnson Franks Mar",
+    "birth": 1788,
+    "death": 1876
+  },
+  {
+    "section": "A",
+    "plot": "10",
+    "name": "Wilma Lane Franksunknown",
+    "birth": 1937,
+    "death": 1937
+  },
+  {
+    "section": "A",
+    "plot": "43",
+    "name": "Doris Thelma Robinson Frazier",
+    "birth": 1924,
+    "death": 2004
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Margaret Leona Fulton",
+    "birth": 1940,
+    "death": 2022
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "William Ballard “Bill” Fulton",
+    "birth": 1929,
+    "death": 2020
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Geraldine “Jerry”Chaffin Gaddis",
+    "birth": 1927,
+    "death": 2015
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Joseph Jefferson Gaddis",
+    "birth": 1921,
+    "death": 2011
+  },
+  {
+    "section": "B",
+    "plot": "65",
+    "name": "Mancy Sanders Garcia",
+    "birth": 1899,
+    "death": 1975
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Bobby Carl Garrett",
+    "birth": 1941,
+    "death": 2015
+  },
+  {
+    "section": "B",
+    "plot": "66",
+    "name": "James Thurman Garrett",
+    "birth": 1975,
+    "death": 1992
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Linda Therese Duet Garrett",
+    "birth": 1942,
+    "death": 2012
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Landon Gene “Lil Duck” Gilbert",
+    "birth": 2019,
+    "death": 2020
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "B. L. “Bud” Green",
+    "birth": 1921,
+    "death": 2003
+  },
+  {
+    "section": "B",
+    "plot": "3",
+    "name": "Boyd Augustus Green",
+    "birth": 1903,
+    "death": 1973
+  },
+  {
+    "section": "A",
+    "plot": "24",
+    "name": "Cassie Mae Green",
+    "birth": 1910,
+    "death": 1992
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Delma Jean Waggonner Green",
+    "birth": 1928,
+    "death": 2000
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Dorothy “Dot”Nell Green",
+    "birth": 1936,
+    "death": 2005
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Duncan Crawford Green",
+    "birth": 1874,
+    "death": 1960
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ernest Alvin Green",
+    "birth": 1923,
+    "death": 1994
+  },
+  {
+    "section": "A",
+    "plot": "10",
+    "name": "Infant Daughter Green",
+    "birth": 1951,
+    "death": 1951
+  },
+  {
+    "section": "A",
+    "plot": "10",
+    "name": "Infant Son Greenunknown",
+    "birth": 1949,
+    "death": 1949
+  },
+  {
+    "section": "B",
+    "plot": "11",
+    "name": "James E Green",
+    "birth": 1917,
+    "death": 1972
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Kathryn Marie Holland Green",
+    "birth": 1920,
+    "death": 2005
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lillie CVaughan Green",
+    "birth": 1882,
+    "death": 1962
+  },
+  {
+    "section": "A",
+    "plot": "10",
+    "name": "Mary Beatrice Hayes Green",
+    "birth": 1915,
+    "death": 1999
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mary Nellie Green",
+    "birth": 1908,
+    "death": 1910
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Morris Leon Green",
+    "birth": 1936,
+    "death": 2007
+  },
+  {
+    "section": "A",
+    "plot": "10",
+    "name": "Ralph Vaughn Green",
+    "birth": 1911,
+    "death": 1990
+  },
+  {
+    "section": "A",
+    "plot": "9",
+    "name": "Robert Wayne Green",
+    "birth": 1946,
+    "death": 1999
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Thomas Alonzo Green",
+    "birth": 1876,
+    "death": 1959
+  },
+  {
+    "section": "A",
+    "plot": "9",
+    "name": "Verda Mae Franks Green",
+    "birth": 1909,
+    "death": 1989
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Violet Cook Green",
+    "birth": 1926,
+    "death": 2016
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Virginia Milton Clayton Green",
+    "birth": 1881,
+    "death": 1953
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Walter M. Green",
+    "birth": 1905,
+    "death": 1951
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "William A Green",
+    "birth": 1904,
+    "death": 1969
+  },
+  {
+    "section": "B",
+    "plot": "3",
+    "name": "Willie Mae Hughes Green",
+    "birth": 1917,
+    "death": 1999
+  },
+  {
+    "section": "B",
+    "plot": "11",
+    "name": "Ernest A Greene",
+    "birth": 1923,
+    "death": 1994
+  },
+  {
+    "section": "B",
+    "plot": "11",
+    "name": "Ruth Blondell Baker Greene",
+    "birth": 1923,
+    "death": 2000
+  },
+  {
+    "section": "B",
+    "plot": "11",
+    "name": "Violet V Greene",
+    "birth": 1926,
+    "death": 2016
+  },
+  {
+    "section": "B",
+    "plot": "11",
+    "name": "William Thomas Greene VVeteran",
+    "birth": 1913,
+    "death": 1996
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Annie May Greer",
+    "birth": 1910,
+    "death": 1930
+  },
+  {
+    "section": "B",
+    "plot": "46",
+    "name": "Billy Greer Birth and death dates unknown.",
+    "birth": null,
+    "death": null
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Charles H. Greer",
+    "birth": 1870,
+    "death": 1946
+  },
+  {
+    "section": "A",
+    "plot": "39",
+    "name": "Dolph Blanton Greer",
+    "birth": 1901,
+    "death": 1981
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Infant Son Greer unknown",
+    "birth": 1913,
+    "death": 1913
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Solon Greer",
+    "birth": 1834,
+    "death": 1920
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Martha AHawkins Greer",
+    "birth": 1841,
+    "death": 1930
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ruthie Mae Bond Greer",
+    "birth": 1904,
+    "death": 1946
+  },
+  {
+    "section": "A",
+    "plot": "32",
+    "name": "Sarah Elizabeth “Lizzie”Vaughan Greer",
+    "birth": 1881,
+    "death": 1961
+  },
+  {
+    "section": "A",
+    "plot": "32",
+    "name": "William James Greer",
+    "birth": 1904,
+    "death": 1983
+  },
+  {
+    "section": "B",
+    "plot": "27",
+    "name": "Douglas Wayne Gunn",
+    "birth": 1956,
+    "death": 2001
+  },
+  {
+    "section": "B",
+    "plot": "27",
+    "name": "Michael Alan Gunn",
+    "birth": 1957,
+    "death": 1996
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Elsie Talley Gunnels",
+    "birth": 1935,
+    "death": 2023
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Tommy Joe Gunnels",
+    "birth": 1935,
+    "death": 1999
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Bobby Glenn Hall",
+    "birth": 1941,
+    "death": 2013
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Gerald “Jed” Hall",
+    "birth": 1966,
+    "death": 2007
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ginger Hall",
+    "birth": 1941,
+    "death": 2008
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Helen Ritter Hall Birth and death dates unknown.",
+    "birth": null,
+    "death": null
+  },
+  {
+    "section": "A",
+    "plot": "52",
+    "name": "John C Hall",
+    "birth": 1908,
+    "death": 1977
+  },
+  {
+    "section": "A",
+    "plot": "52",
+    "name": "Maudie R Hall",
+    "birth": 1907,
+    "death": 1988
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Allie Malverte Wallace Hanson",
+    "birth": 1894,
+    "death": 1980
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Alton Jackson Hanson VVeteran",
+    "birth": 1920,
+    "death": 2010
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Bobby Dwaine Hanson",
+    "birth": 1941,
+    "death": 2000
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Celia Ann Null Hanson",
+    "birth": 1944,
+    "death": 2021
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Clara Alice Merritt Hanson",
+    "birth": 1887,
+    "death": 1980
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ethel Getrudea Hanson",
+    "birth": 1912,
+    "death": 1926
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lee Griffin Hanson",
+    "birth": 1879,
+    "death": 1932
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Nancy Mildred Waller Hanson",
+    "birth": 1852,
+    "death": 1929
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Nello Saxon Hanson",
+    "birth": 1884,
+    "death": 1935
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "William Jackson Hanson",
+    "birth": 1891,
+    "death": 1971
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "William Olvis Hanson",
+    "birth": 1918,
+    "death": 1977
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Suzanne Burns Harvey",
+    "birth": 1948,
+    "death": 2005
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Bradford Haygood",
+    "birth": 1904,
+    "death": 1905
+  },
+  {
+    "section": "B",
+    "plot": "69",
+    "name": "Albert Haynes",
+    "birth": 1923,
+    "death": 1997
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A37",
+    "name": "Andrew Payne “Andy” Haynes",
+    "birth": 1898,
+    "death": 1977
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Annie Corinne Wise Haynes",
+    "birth": 1932,
+    "death": 2024
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A33",
+    "name": "Annie E Haynes",
+    "birth": 1898,
+    "death": 1915
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Armyllis Huff Haynes",
+    "birth": 1938,
+    "death": 2021
+  },
+  {
+    "section": "A",
+    "plot": "22",
+    "name": "Avie L Haynes",
+    "birth": 1911,
+    "death": 1983
+  },
+  {
+    "section": "unknown",
+    "plot": "Row B57",
+    "name": "Barnabus “Barney” Haynes",
+    "birth": 1909,
+    "death": 1978
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Betty Jo Haynes",
+    "birth": 1935,
+    "death": 1936
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Bobby Charles Haynes",
+    "birth": 1933,
+    "death": 1933
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Charles Haynes",
+    "birth": 1937,
+    "death": 2023
+  },
+  {
+    "section": "unknown",
+    "plot": "Row B56",
+    "name": "Claudie Eunice Payne Haynes",
+    "birth": 1913,
+    "death": 2004
+  },
+  {
+    "section": "B",
+    "plot": "69",
+    "name": "Cleta CJordan Haynes",
+    "birth": 1924,
+    "death": 1996
+  },
+  {
+    "section": "A",
+    "plot": "38",
+    "name": "Cora Viola Talley Haynes",
+    "birth": 1897,
+    "death": 1980
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Corrie Mae Garrett Haynes",
+    "birth": 1932,
+    "death": 2020
+  },
+  {
+    "section": "unknown",
+    "plot": "Row B57",
+    "name": "Edna Bradley Haynes",
+    "birth": 1906,
+    "death": 1983
+  },
+  {
+    "section": "B",
+    "plot": "37",
+    "name": "Etoile Campbell Haynes",
+    "birth": 1908,
+    "death": 1975
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Franklin Delano “Dee” Haynes",
+    "birth": 1933,
+    "death": 2022
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Gloria Haynes",
+    "birth": 1940,
+    "death": 2023
+  },
+  {
+    "section": "B",
+    "plot": "21",
+    "name": "Gregory G Haynes",
+    "birth": 1954,
+    "death": 1999
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ila Christine Haynes",
+    "birth": 1924,
+    "death": 1929
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Inez Wynne Haynes",
+    "birth": 1917,
+    "death": 2013
+  },
+  {
+    "section": "A",
+    "plot": "40",
+    "name": "Infant Daughter Haynes",
+    "birth": 1935,
+    "death": 1935
+  },
+  {
+    "section": "A",
+    "plot": "40",
+    "name": "Infant Son Haynes",
+    "birth": 1951,
+    "death": 1951
+  },
+  {
+    "section": "A",
+    "plot": "40",
+    "name": "J W Haynes",
+    "birth": 1915,
+    "death": 1982
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Jackie Ray Haynes",
+    "birth": 1948,
+    "death": 2017
+  },
+  {
+    "section": "A",
+    "plot": "40",
+    "name": "James D Haynes",
+    "birth": 1939,
+    "death": 1995
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Jimmie Lawrence “J. L.” Haynes",
+    "birth": 1937,
+    "death": 2021
+  },
+  {
+    "section": "B",
+    "plot": "37",
+    "name": "John O Haynes",
+    "birth": 1905,
+    "death": 1992
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A37",
+    "name": "John Samuel Haynes",
+    "birth": 1870,
+    "death": 1940
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "John William Haynes III",
+    "birth": 1952,
+    "death": 2023
+  },
+  {
+    "section": "B",
+    "plot": "68",
+    "name": "John William “Junior” Haynes Jr.",
+    "birth": 1926,
+    "death": 1971
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Johnny Dale Haynes",
+    "birth": 1935,
+    "death": 2013
+  },
+  {
+    "section": "B",
+    "plot": "57",
+    "name": "Larry Wayne Haynes",
+    "birth": 1958,
+    "death": 1963
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lawrence Derrell Haynes",
+    "birth": 1929,
+    "death": 2019
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A37",
+    "name": "Lucrecia Barnard Haynes",
+    "birth": 1900,
+    "death": 1973
+  },
+  {
+    "section": "A",
+    "plot": "39",
+    "name": "Marshall Haynes",
+    "birth": 1935,
+    "death": 2003
+  },
+  {
+    "section": "A",
+    "plot": "39",
+    "name": "Mattie Carlyn Mayfield Haynes",
+    "birth": 1910,
+    "death": 1994
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Michael Haynes",
+    "birth": 1962,
+    "death": 2021
+  },
+  {
+    "section": "A",
+    "plot": "39",
+    "name": "Michael Dickson Haynes",
+    "birth": 1909,
+    "death": 1975
+  },
+  {
+    "section": "A",
+    "plot": "38",
+    "name": "Moscow Madison Haynes",
+    "birth": 1896,
+    "death": 1986
+  },
+  {
+    "section": "A",
+    "plot": "34",
+    "name": "Ollie C Haynes",
+    "birth": 1896,
+    "death": 1917
+  },
+  {
+    "section": "unknown",
+    "plot": "Row B55",
+    "name": "Ozela Hughes Haynes",
+    "birth": 1912,
+    "death": 2011
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A33",
+    "name": "Rufus Lee Haynes",
+    "birth": 1894,
+    "death": 1956
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Sallie Lou Caswell Haynes",
+    "birth": 1876,
+    "death": 1940
+  },
+  {
+    "section": "B",
+    "plot": "55",
+    "name": "Sammy Joe Haynes",
+    "birth": 1939,
+    "death": 1999
+  },
+  {
+    "section": "unknown",
+    "plot": "Row B55",
+    "name": "Samuel Cary Haynes",
+    "birth": 1911,
+    "death": 1988
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A37",
+    "name": "Sarah Carrie Vaughan Haynes",
+    "birth": 1870,
+    "death": 1951
+  },
+  {
+    "section": "B",
+    "plot": "44",
+    "name": "Thomas Dwight Haynes",
+    "birth": 1923,
+    "death": 1984
+  },
+  {
+    "section": "unknown",
+    "plot": "Row B56",
+    "name": "Thomas Ruben Haynes",
+    "birth": 1902,
+    "death": 1973
+  },
+  {
+    "section": "B",
+    "plot": "44",
+    "name": "Virginia Dare Jones Haynes",
+    "birth": 1923,
+    "death": 2024
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "William C. Haynes",
+    "birth": 1911,
+    "death": 1948
+  },
+  {
+    "section": "A",
+    "plot": "38",
+    "name": "William H Haynes",
+    "birth": 1879,
+    "death": 1950
+  },
+  {
+    "section": "A",
+    "plot": "38",
+    "name": "William Theophilus Haynes",
+    "birth": 1911,
+    "death": 1929
+  },
+  {
+    "section": "A",
+    "plot": "38",
+    "name": "Zelma M Haynes",
+    "birth": 1928,
+    "death": 1932
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Bilza Serena “Bilsie”Terrell Hearon Sponsored",
+    "birth": 1843,
+    "death": 1918
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James E. “Jamey” Hearon Sponsored",
+    "birth": 1841,
+    "death": 1900
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Andrew Moses Helms",
+    "birth": 1860,
+    "death": 1895
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Maggie Higgins",
+    "birth": 1900,
+    "death": 1902
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Infant Son Holland",
+    "birth": 1928,
+    "death": 1928
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Maud Whitley Holland",
+    "birth": 1897,
+    "death": 1929
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Robert Lee Holland",
+    "birth": 1920,
+    "death": 2013
+  },
+  {
+    "section": "B",
+    "plot": "18",
+    "name": "Vera L Holland",
+    "birth": 1925,
+    "death": 2006
+  },
+  {
+    "section": "B",
+    "plot": "59",
+    "name": "Alice Iru Campbell Hood",
+    "birth": 1917,
+    "death": 1985
+  },
+  {
+    "section": "B",
+    "plot": "59",
+    "name": "Hugh Farrel Hoodunknown",
+    "birth": 1917,
+    "death": 1917
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "David Justin Hopkins",
+    "birth": 1983,
+    "death": 2021
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ella Le Croy Horton",
+    "birth": 1874,
+    "death": 1950
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Caroline Jane “Carrie”Jordan Hudson",
+    "birth": 1870,
+    "death": 1947
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Clyde Hudson",
+    "birth": 1897,
+    "death": 1898
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Daisy DYoungblood Hudson",
+    "birth": 1911,
+    "death": 1995
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ethel Blanche Owen Hudson",
+    "birth": 1898,
+    "death": 1988
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Eva Lee Mc Mahen Hudson",
+    "birth": 1894,
+    "death": 1941
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Herbert Paul Hudson",
+    "birth": 1910,
+    "death": 1986
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ida E. Hudson",
+    "birth": 1873,
+    "death": 1873
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "J. E. Hudson",
+    "birth": 1866,
+    "death": 1873
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Artice Hudson",
+    "birth": 1904,
+    "death": 1980
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Preston “Jimmy” Hudson",
+    "birth": 1866,
+    "death": 1933
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Royce Hudson Jan",
+    "birth": 1930,
+    "death": 1970
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "John Ward Hudson",
+    "birth": 1896,
+    "death": 1968
+  },
+  {
+    "section": "A",
+    "plot": "12",
+    "name": "Johnnie Ann Elkins Hudson",
+    "birth": 1910,
+    "death": 2005
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ronald Ward Hudson",
+    "birth": 1944,
+    "death": 1996
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Thomas Mark Hudson",
+    "birth": 1899,
+    "death": 1969
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Thomas Rhodes Hudson",
+    "birth": 1927,
+    "death": 2001
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Linda S Hughes",
+    "birth": 1954,
+    "death": 2001
+  },
+  {
+    "section": "A",
+    "plot": "38",
+    "name": "Audie Haynes Iberg",
+    "birth": 1914,
+    "death": 2002
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Cora C. Irby",
+    "birth": 1917,
+    "death": 1917
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Elice E. Irby",
+    "birth": 1918,
+    "death": 1919
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "France E. Irby",
+    "birth": 1919,
+    "death": 1919
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Donald Wayne Jackson Sr.",
+    "birth": 1942,
+    "death": 2006
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Myrna Loy Jennings",
+    "birth": 1935,
+    "death": 2022
+  },
+  {
+    "section": "A",
+    "plot": "22",
+    "name": "Chesley Ray Johnson",
+    "birth": 1915,
+    "death": 1986
+  },
+  {
+    "section": "A",
+    "plot": "51",
+    "name": "Eloe R Johnsonunknown",
+    "birth": 1918,
+    "death": 1918
+  },
+  {
+    "section": "A",
+    "plot": "51",
+    "name": "Herbert J Johnson",
+    "birth": 1913,
+    "death": 1985
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Joseph Woodard “Joe” Johnson",
+    "birth": 1931,
+    "death": 2022
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Aaron Jones",
+    "birth": 1910,
+    "death": 1910
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Alma Lee Tomlin Jones",
+    "birth": 1891,
+    "death": 1943
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Arnold Ralph Jones VVeteran",
+    "birth": 1915,
+    "death": 1945
+  },
+  {
+    "section": "A",
+    "plot": "26",
+    "name": "Billie Mae Jonesunknown",
+    "birth": 1928,
+    "death": 1928
+  },
+  {
+    "section": "B",
+    "plot": "39",
+    "name": "Cavis Harvey Jones VVeteran",
+    "birth": 1921,
+    "death": 1974
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Elzie Jones",
+    "birth": 1910,
+    "death": 1928
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Francis Jones",
+    "birth": 1926,
+    "death": 1927
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Herbert Dale Jones VVeteran",
+    "birth": 1928,
+    "death": 2019
+  },
+  {
+    "section": "A",
+    "plot": "26",
+    "name": "Infant Jones",
+    "birth": 1910,
+    "death": 1910
+  },
+  {
+    "section": "A",
+    "plot": "26",
+    "name": "James Freddie Jonesunknown",
+    "birth": 1934,
+    "death": 1934
+  },
+  {
+    "section": "A",
+    "plot": "48",
+    "name": "James Silas “Jim” Jones",
+    "birth": 1883,
+    "death": 1979
+  },
+  {
+    "section": "A",
+    "plot": "26",
+    "name": "Juanita Jonesunknown",
+    "birth": 1931,
+    "death": 1931
+  },
+  {
+    "section": "A",
+    "plot": "26",
+    "name": "Lee Otis Jones",
+    "birth": 1888,
+    "death": 1976
+  },
+  {
+    "section": "B",
+    "plot": "39",
+    "name": "Lillie Bernice Vaughan Jones",
+    "birth": 1927,
+    "death": 2018
+  },
+  {
+    "section": "A",
+    "plot": "26",
+    "name": "Lorene Jones",
+    "birth": 1918,
+    "death": 1920
+  },
+  {
+    "section": "A",
+    "plot": "48",
+    "name": "Lucy Sanders Jones",
+    "birth": 1892,
+    "death": 1967
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lucy Ora Talley Jones",
+    "birth": 1872,
+    "death": 1958
+  },
+  {
+    "section": "B",
+    "plot": "19",
+    "name": "Malcom J Jones",
+    "birth": 1898,
+    "death": 1973
+  },
+  {
+    "section": "A",
+    "plot": "48",
+    "name": "Marteal Bible Jones",
+    "birth": 1927,
+    "death": 2007
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Maud Ann Mouser Jones",
+    "birth": 1885,
+    "death": 1961
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mavis Jones",
+    "birth": 1922,
+    "death": 1922
+  },
+  {
+    "section": "A",
+    "plot": "48",
+    "name": "Mervin Jones",
+    "birth": 1913,
+    "death": 2005
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ralph Jones",
+    "birth": 1920,
+    "death": 1921
+  },
+  {
+    "section": "A",
+    "plot": "26",
+    "name": "Ruth Jones",
+    "birth": 1920,
+    "death": 1921
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ruth Jones",
+    "birth": 1929,
+    "death": 2019
+  },
+  {
+    "section": "unknown",
+    "plot": "N",
+    "name": "Thomas Foster Jones Jr.VVeteran",
+    "birth": 1919,
+    "death": 2002
+  },
+  {
+    "section": "A",
+    "plot": "37",
+    "name": "Thomas Foster Jones Sr.",
+    "birth": 1886,
+    "death": 1965
+  },
+  {
+    "section": "A",
+    "plot": "26",
+    "name": "Titus Talley Jones",
+    "birth": 1925,
+    "death": 1992
+  },
+  {
+    "section": "B",
+    "plot": "19",
+    "name": "Velma Talley Jones",
+    "birth": 1905,
+    "death": 1975
+  },
+  {
+    "section": "unknown",
+    "plot": "N",
+    "name": "Virginia Hicks Jones",
+    "birth": 1925,
+    "death": 2007
+  },
+  {
+    "section": "B",
+    "plot": "39",
+    "name": "Wayne Earl Jones",
+    "birth": 1950,
+    "death": 1970
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Wilson W. Jones",
+    "birth": 1880,
+    "death": 1949
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Anna Matilda Poland Jordan",
+    "birth": 1847,
+    "death": 1904
+  },
+  {
+    "section": "A",
+    "plot": "30",
+    "name": "Billy George Jordan",
+    "birth": 1927,
+    "death": 1981
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Charles W. Jordan VVeteran",
+    "birth": 1847,
+    "death": 1929
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Claude Jordan",
+    "birth": 1922,
+    "death": 2003
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ida E Jordan",
+    "birth": 1873,
+    "death": 1873
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Infant Daughter “Baby” Jordan",
+    "birth": 1921,
+    "death": 1921
+  },
+  {
+    "section": "A",
+    "plot": "17",
+    "name": "Infant Son Jordan Birth and death dates unknown.",
+    "birth": null,
+    "death": null
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "J Emory Jordan",
+    "birth": 1866,
+    "death": 1873
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Andrew Jordan",
+    "birth": 1827,
+    "death": 1916
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Darland Jordan",
+    "birth": 1829,
+    "death": 1903
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Joseph J. Jordan",
+    "birth": 1876,
+    "death": 1906
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lillie Le Croy Jordan",
+    "birth": 1889,
+    "death": 1961
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mary Ann Evans Jordan",
+    "birth": 1829,
+    "death": 1907
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mary Jane White Jordan",
+    "birth": 1840,
+    "death": 1895
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ulysses E. Jordan",
+    "birth": 1892,
+    "death": 1895
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Brenda Sue “Susie”Haynes Kennedy",
+    "birth": 1950,
+    "death": 2021
+  },
+  {
+    "section": "B",
+    "plot": "21",
+    "name": "Barry Jerron Killough",
+    "birth": 1942,
+    "death": 1989
+  },
+  {
+    "section": "A",
+    "plot": "19",
+    "name": "Adeline Virginia A Le Croy",
+    "birth": 1862,
+    "death": 1862
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Alfred Le Croy",
+    "birth": 1816,
+    "death": 1892
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Austin C Lecroy VVeteran",
+    "birth": 1895,
+    "death": 1983
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Christopher Columbus Le Croy",
+    "birth": 1852,
+    "death": 1919
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Clide Le Croy",
+    "birth": 1893,
+    "death": 1911
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Emma Josephine Le Croy",
+    "birth": 1885,
+    "death": 1958
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "John T. Le Croy",
+    "birth": 1887,
+    "death": 1887
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lenora Spencer Le Croy",
+    "birth": 1870,
+    "death": 1927
+  },
+  {
+    "section": "A",
+    "plot": "19",
+    "name": "Martha EFranks Le Croy",
+    "birth": 1852,
+    "death": 1918
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Nancy Russell Le Croy",
+    "birth": 1826,
+    "death": 1889
+  },
+  {
+    "section": "A",
+    "plot": "30",
+    "name": "Ruth Le Croy",
+    "birth": 1891,
+    "death": 1982
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Tennessee Miller Le Croy",
+    "birth": 1859,
+    "death": 1919
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "William M. Le Croy",
+    "birth": 1843,
+    "death": 1928
+  },
+  {
+    "section": "A",
+    "plot": "9",
+    "name": "Lucy NMc Mahen Lehnhoff",
+    "birth": 1906,
+    "death": 1963
+  },
+  {
+    "section": "A",
+    "plot": "9",
+    "name": "Orval Wilbur Lehnhoff",
+    "birth": 1906,
+    "death": 1976
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Bobbie Lou Modisette Lewis",
+    "birth": 1939,
+    "death": 2023
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Rhonda Kaye Carson Love",
+    "birth": 1962,
+    "death": 2003
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Audrey Elton Marsh Jr.",
+    "birth": 1928,
+    "death": 2016
+  },
+  {
+    "section": "A",
+    "plot": "25",
+    "name": "Mary Ella Talley Martin",
+    "birth": 1894,
+    "death": 1973
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Billy Conrad “Billy Boy” Maus Sponsored",
+    "birth": 1955,
+    "death": 2022
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Conrad Henry Maus VVeteran",
+    "birth": 1922,
+    "death": 2010
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Rubie Sewell Maus",
+    "birth": 1926,
+    "death": 2015
+  },
+  {
+    "section": "B",
+    "plot": "22",
+    "name": "Archie Garland Mayfield",
+    "birth": 1901,
+    "death": 1969
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A24",
+    "name": "Charles Ellos Mayfield",
+    "birth": 1867,
+    "death": 1935
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A16",
+    "name": "Floyd Moscow Mayfield VVeteran",
+    "birth": 1895,
+    "death": 1923
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A24",
+    "name": "Frances Franci Cornelia Talley Mayfield",
+    "birth": 1872,
+    "death": 1955
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "G. E. “Dick” Mayfield",
+    "birth": 1926,
+    "death": 2009
+  },
+  {
+    "section": "A",
+    "plot": "24",
+    "name": "Infant Son Mayfield",
+    "birth": 1895,
+    "death": 1895
+  },
+  {
+    "section": "A",
+    "plot": "28",
+    "name": "Mattie Ozelle Camp Mayfield",
+    "birth": 1894,
+    "death": 1982
+  },
+  {
+    "section": "B",
+    "plot": "22",
+    "name": "Pauline Green Mayfield",
+    "birth": 1904,
+    "death": 2000
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Smith Mayfield",
+    "birth": 1871,
+    "death": 1895
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Velma Mayfield",
+    "birth": 1893,
+    "death": 1896
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Willia La Nell White Mayfield",
+    "birth": 1933,
+    "death": 2007
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Willie Lee Mayfield",
+    "birth": 1890,
+    "death": 1942
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Wanda Sue Duke Mays",
+    "birth": 1941,
+    "death": 2022
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Bettie Modisette Mc Allister",
+    "birth": 1935,
+    "death": 2010
+  },
+  {
+    "section": "unknown",
+    "plot": "N",
+    "name": "Cynthia Hammontree Mc Coy",
+    "birth": 1948,
+    "death": 1999
+  },
+  {
+    "section": "unknown",
+    "plot": "N",
+    "name": "Infant Twins Mc Coy Birth and death dates unknown.",
+    "birth": null,
+    "death": null
+  },
+  {
+    "section": "A",
+    "plot": "41",
+    "name": "Betty Lou Haynes Mc Cuen",
+    "birth": 1936,
+    "death": 2021
+  },
+  {
+    "section": "A",
+    "plot": "41",
+    "name": "Brooksy Wiley “Red” Mc Cuen VVeteran",
+    "birth": 1931,
+    "death": 1994
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ester Lavinia Booth Mc Donald",
+    "birth": 1875,
+    "death": 1903
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Moses Sim Mc Donald Jr.",
+    "birth": 1932,
+    "death": 2011
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Flora Faye Harbour Mc Eachern",
+    "birth": 1934,
+    "death": 2017
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Horace L Mc Eachern",
+    "birth": 1935,
+    "death": 2010
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Infant Mc Eachern",
+    "birth": 1896,
+    "death": 1896
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lanora S. “Nora”Williamson Mc Eachern",
+    "birth": 1872,
+    "death": 1896
+  },
+  {
+    "section": "B",
+    "plot": "45",
+    "name": "Melvin Madison Mc Eachern",
+    "birth": 1902,
+    "death": 1971
+  },
+  {
+    "section": "B",
+    "plot": "45",
+    "name": "Nobie Greer Mc Eachern",
+    "birth": 1907,
+    "death": 1981
+  },
+  {
+    "section": "A",
+    "plot": "51",
+    "name": "Carolyn Diane Mc Gee",
+    "birth": 1949,
+    "death": 1986
+  },
+  {
+    "section": "A",
+    "plot": "51",
+    "name": "Johnnie Alfred Mc Gee",
+    "birth": 1921,
+    "death": 2001
+  },
+  {
+    "section": "A",
+    "plot": "51",
+    "name": "Margaret Estelle Mc Gee",
+    "birth": 1928,
+    "death": 1998
+  },
+  {
+    "section": "A",
+    "plot": "46",
+    "name": "Erma Jones Mc Kinnis",
+    "birth": 1916,
+    "death": 1986
+  },
+  {
+    "section": "A",
+    "plot": "46",
+    "name": "Jackie Celell Mc Kinnis",
+    "birth": 1959,
+    "death": 1959
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Celell “Jim” Mc Kinnis",
+    "birth": 1937,
+    "death": 2004
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Michael Clifford Mc Kinnis",
+    "birth": 1960,
+    "death": 2020
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Infant Daughter Mc Lain",
+    "birth": 1880,
+    "death": 1880
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Tolbert Mc Lain",
+    "birth": 1881,
+    "death": 1884
+  },
+  {
+    "section": "A",
+    "plot": "21",
+    "name": "M E L Mc Lain",
+    "birth": 1859,
+    "death": 1881
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Hester Missouri Franks Mc Mahen",
+    "birth": 1869,
+    "death": 1943
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Infant Mc Mahen",
+    "birth": 1895,
+    "death": 1895
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Allen Mc Mahen",
+    "birth": 1866,
+    "death": 1953
+  },
+  {
+    "section": "A",
+    "plot": "14",
+    "name": "Lois Sanders Mc Mahen",
+    "birth": 1896,
+    "death": 1990
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "M. Jerusha Mc Mahen",
+    "birth": 1885,
+    "death": 1930
+  },
+  {
+    "section": "A",
+    "plot": "14",
+    "name": "Richard Calvin Mc Mahen",
+    "birth": 1891,
+    "death": 1965
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Robert W. Mc Mahen",
+    "birth": 1864,
+    "death": 1942
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Audie May Meeks",
+    "birth": 1909,
+    "death": 1910
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Clare Mae Meeks",
+    "birth": 1930,
+    "death": 1933
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Curtis A Meeks",
+    "birth": 1911,
+    "death": 2009
+  },
+  {
+    "section": "A",
+    "plot": "30",
+    "name": "Infant Meeksunknown Sep",
+    "birth": 1904,
+    "death": 1904
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "John Wesley Meeks",
+    "birth": 1907,
+    "death": 1936
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lillian Lucille Meeks",
+    "birth": 1902,
+    "death": 1918
+  },
+  {
+    "section": "A",
+    "plot": "30",
+    "name": "Mable Clare Meeks",
+    "birth": 1912,
+    "death": 1993
+  },
+  {
+    "section": "A",
+    "plot": "30",
+    "name": "Mattie Carrie Winn Meeks",
+    "birth": 1882,
+    "death": 1965
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mattie Lorene Meeks",
+    "birth": 1917,
+    "death": 1927
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Roy Joshua Meeks",
+    "birth": 1882,
+    "death": 1953
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Viva L Meeks",
+    "birth": 1932,
+    "death": 2009
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Leon Guy Miller",
+    "birth": 1937,
+    "death": 2005
+  },
+  {
+    "section": "A",
+    "plot": "39",
+    "name": "Audrey LLinnear Millican",
+    "birth": 1932,
+    "death": 2011
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Talmage Loyd Millican",
+    "birth": 1946,
+    "death": 2016
+  },
+  {
+    "section": "B",
+    "plot": "42",
+    "name": "John D Mitchell",
+    "birth": 1913,
+    "death": 1997
+  },
+  {
+    "section": "B",
+    "plot": "42",
+    "name": "Lucy Lewis Mitchell",
+    "birth": 1909,
+    "death": 1993
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ella Modisett",
+    "birth": 1889,
+    "death": 1889
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Francis Modisett",
+    "birth": 1883,
+    "death": 1883
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Joseph G Modisett",
+    "birth": 1886,
+    "death": 1893
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Andrew Jackson “A. J.” Modisette VVeteran",
+    "birth": 1918,
+    "death": 2000
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A20",
+    "name": "Ann Eliza “Annalizer”Vaughan Modisette",
+    "birth": 1851,
+    "death": 1892
+  },
+  {
+    "section": "A",
+    "plot": "35",
+    "name": "Brooksey Modisette",
+    "birth": 1931,
+    "death": 1933
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Eva Mae Modisette",
+    "birth": 1927,
+    "death": 2023
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A35",
+    "name": "Fines Finus Melvin Modisette",
+    "birth": 1889,
+    "death": 1964
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Henry “Pat” Modisette",
+    "birth": 1937,
+    "death": 2017
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A20",
+    "name": "Henry Harrison Modisette",
+    "birth": 1851,
+    "death": 1925
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Herman W. Modisette",
+    "birth": 1945,
+    "death": 1945
+  },
+  {
+    "section": "B",
+    "plot": "43",
+    "name": "James E Modisette",
+    "birth": 1919,
+    "death": 1988
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Jimmy Modisette",
+    "birth": 1949,
+    "death": 1971
+  },
+  {
+    "section": "unknown",
+    "plot": "Row B43",
+    "name": "Katherine Orlease Teague Modisette",
+    "birth": 1924,
+    "death": 2000
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lois Payne Modisette Birth and death dates unknown.",
+    "birth": null,
+    "death": null
+  },
+  {
+    "section": "B",
+    "plot": "40",
+    "name": "Marshal Orell Modisette",
+    "birth": 1941,
+    "death": 2020
+  },
+  {
+    "section": "A",
+    "plot": "35",
+    "name": "Mary Modisette",
+    "birth": 1920,
+    "death": 1922
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A35",
+    "name": "Mattie CHaynes Modisette",
+    "birth": 1895,
+    "death": 1926
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A41",
+    "name": "Mellie Bea Talley Modisette",
+    "birth": 1911,
+    "death": 1989
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A35",
+    "name": "Nellie Gay Patterson Modisette",
+    "birth": 1908,
+    "death": 1966
+  },
+  {
+    "section": "A",
+    "plot": "35",
+    "name": "Raymond Modisette",
+    "birth": 1926,
+    "death": 1977
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A35",
+    "name": "Thurman Hoyt Modisette",
+    "birth": 1916,
+    "death": 1984
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A41",
+    "name": "Vergil O Modisette",
+    "birth": 1912,
+    "death": 1985
+  },
+  {
+    "section": "B",
+    "plot": "15",
+    "name": "Walter William “Billy” Modisette",
+    "birth": 1929,
+    "death": 1992
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Cyntha Sanders Monzingo",
+    "birth": 1819,
+    "death": 1905
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mary Addie Talley Moon",
+    "birth": 1884,
+    "death": 1964
+  },
+  {
+    "section": "B",
+    "plot": "25",
+    "name": "Audie Zella Winn Moore",
+    "birth": 1888,
+    "death": 1973
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Doyce Moore",
+    "birth": 1914,
+    "death": 1929
+  },
+  {
+    "section": "B",
+    "plot": "25",
+    "name": "John Richards Moore",
+    "birth": 1887,
+    "death": 1974
+  },
+  {
+    "section": "A",
+    "plot": "27",
+    "name": "Sam King Moore",
+    "birth": 1893,
+    "death": 1970
+  },
+  {
+    "section": "B",
+    "plot": "59",
+    "name": "Elizabeth Ines “Lizzie”Beasley Moreland",
+    "birth": 1906,
+    "death": 2000
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Bobbie Faye Mathis Morgan",
+    "birth": 1928,
+    "death": 1993
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "David Gilbert Morgan Sponsored",
+    "birth": 1942,
+    "death": 2020
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Evelyn Rose “Lyn”Laurents Morgan",
+    "birth": 1935,
+    "death": 2022
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Gem Lester Morgan Sr.",
+    "birth": 1896,
+    "death": 1971
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Jimmy Wayne Morgan",
+    "birth": 1934,
+    "death": 2008
+  },
+  {
+    "section": "A",
+    "plot": "9",
+    "name": "John Calvin Morgan VVeteran",
+    "birth": 1920,
+    "death": 1993
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lester “June” Morgan Jr.",
+    "birth": 1923,
+    "death": 2007
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Linda Joyce Haynes Morgan",
+    "birth": 1944,
+    "death": 2014
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Minnie Dell Morgan",
+    "birth": 1934,
+    "death": 2024
+  },
+  {
+    "section": "A",
+    "plot": "7",
+    "name": "S C Morgan Birth and death dates unknown.",
+    "birth": null,
+    "death": null
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Sidney Flovela Mitchell Morgan",
+    "birth": 1900,
+    "death": 1987
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Toy Vesta Green Morgan",
+    "birth": 1920,
+    "death": 2003
+  },
+  {
+    "section": "B",
+    "plot": "35",
+    "name": "Dewey Oscar Morse",
+    "birth": 1919,
+    "death": 1978
+  },
+  {
+    "section": "B",
+    "plot": "35",
+    "name": "Lillie Corryne Talley Morse",
+    "birth": 1917,
+    "death": 1980
+  },
+  {
+    "section": "B",
+    "plot": "35",
+    "name": "Michael Glenn Morse",
+    "birth": 1951,
+    "death": 1978
+  },
+  {
+    "section": "B",
+    "plot": "32",
+    "name": "Aubrey Lee Mouser",
+    "birth": 1915,
+    "death": 1995
+  },
+  {
+    "section": "A",
+    "plot": "41",
+    "name": "Della Haynes Mouser",
+    "birth": 1893,
+    "death": 1968
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Delmer Madison Mouser",
+    "birth": 1924,
+    "death": 2010
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Gary Lee Mouser",
+    "birth": 1948,
+    "death": 2025
+  },
+  {
+    "section": "B",
+    "plot": "42",
+    "name": "Jack Mouser Birth and death dates unknown.",
+    "birth": null,
+    "death": null
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Madison Mouser",
+    "birth": 1889,
+    "death": 1953
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Jeanett Mouser",
+    "birth": 1923,
+    "death": 1934
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Jeanette Kaizea Dees Mouser",
+    "birth": 1856,
+    "death": 1926
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "John D. Mouser",
+    "birth": 1889,
+    "death": 1931
+  },
+  {
+    "section": "B",
+    "plot": "42",
+    "name": "Johnny Mouser Birth and death dates unknown.",
+    "birth": null,
+    "death": null
+  },
+  {
+    "section": "B",
+    "plot": "32",
+    "name": "Leah Vines Mouser",
+    "birth": 1898,
+    "death": 1978
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mary Adene Sewell Mouser",
+    "birth": 1921,
+    "death": 2014
+  },
+  {
+    "section": "A",
+    "plot": "41",
+    "name": "Melvin Roy Mouser",
+    "birth": 1914,
+    "death": 1982
+  },
+  {
+    "section": "B",
+    "plot": "58",
+    "name": "Quinton Jack Mouser",
+    "birth": 1921,
+    "death": 2000
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "T. J. Mouser",
+    "birth": 1895,
+    "death": 1926
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Thalia “Fay”White Mouser",
+    "birth": 1926,
+    "death": 2018
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Thomas J. Mouser VVeteran",
+    "birth": 1926,
+    "death": 1947
+  },
+  {
+    "section": "A",
+    "plot": "32",
+    "name": "Varia MMc Ilveene Mouser",
+    "birth": 1892,
+    "death": 1977
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "William H. Mouser",
+    "birth": 1883,
+    "death": 1941
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "William Thomas Mouser",
+    "birth": 1859,
+    "death": 1934
+  },
+  {
+    "section": "B",
+    "plot": "22",
+    "name": "Jason Myers unknown",
+    "birth": 1973,
+    "death": 1973
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Nancy Kay Mayfield Myers",
+    "birth": 1952,
+    "death": 2024
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Harold Dean Nations",
+    "birth": 1944,
+    "death": 2007
+  },
+  {
+    "section": "A",
+    "plot": "53",
+    "name": "Carl J Nehls",
+    "birth": 1908,
+    "death": 1974
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Harold Eugene “Smiley” Nehls Sr.VVeteran",
+    "birth": 1936,
+    "death": 2019
+  },
+  {
+    "section": "A",
+    "plot": "53",
+    "name": "Margaret Desatnik Nehls",
+    "birth": 1907,
+    "death": 1996
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Shirley Elnora Barrington Nehls",
+    "birth": 1936,
+    "death": 2022
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Bobbye Gwen Talley Nelson",
+    "birth": 1934,
+    "death": 2021
+  },
+  {
+    "section": "B",
+    "plot": "62",
+    "name": "Dennis Hayes Nelson",
+    "birth": 1923,
+    "death": 1986
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Frances Eugenia Browning Nelson",
+    "birth": 1846,
+    "death": 1893
+  },
+  {
+    "section": "A",
+    "plot": "10",
+    "name": "James Curtis Nelson",
+    "birth": 1913,
+    "death": 2001
+  },
+  {
+    "section": "A",
+    "plot": "10",
+    "name": "Mavie LFranks Nelson",
+    "birth": 1913,
+    "death": 1978
+  },
+  {
+    "section": "A",
+    "plot": "27",
+    "name": "William Elijiah Nelson",
+    "birth": 1836,
+    "death": 1919
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Earl Henry Nichols VVeteran",
+    "birth": 1923,
+    "death": 2011
+  },
+  {
+    "section": "B",
+    "plot": "59",
+    "name": "Doris Jean Owens",
+    "birth": 1928,
+    "death": 1999
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Roy Paul Owens",
+    "birth": 1940,
+    "death": 2011
+  },
+  {
+    "section": "A",
+    "plot": "9",
+    "name": "Emma Florence Goode Parks",
+    "birth": 1892,
+    "death": 1962
+  },
+  {
+    "section": "A",
+    "plot": "10",
+    "name": "Lucille Parks",
+    "birth": 1914,
+    "death": 1915
+  },
+  {
+    "section": "A",
+    "plot": "9",
+    "name": "W Fred Parks Apr",
+    "birth": 1889,
+    "death": 1977
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "A. B. Patillo",
+    "birth": 1831,
+    "death": 1916
+  },
+  {
+    "section": "A",
+    "plot": "38",
+    "name": "Alfred Boren Pattillo VVeteran",
+    "birth": 1831,
+    "death": 1916
+  },
+  {
+    "section": "A",
+    "plot": "38",
+    "name": "Charles Henry Pattillo",
+    "birth": 1891,
+    "death": 1963
+  },
+  {
+    "section": "A",
+    "plot": "38",
+    "name": "Martha LCassels Pattillo",
+    "birth": 1863,
+    "death": 1951
+  },
+  {
+    "section": "B",
+    "plot": "40",
+    "name": "Dorothy Jones Payne",
+    "birth": 1916,
+    "death": 1999
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ernest H. Payne",
+    "birth": 1884,
+    "death": 1941
+  },
+  {
+    "section": "unknown",
+    "plot": "A",
+    "name": "Theron E Payne",
+    "birth": 1914,
+    "death": 1981
+  },
+  {
+    "section": "B",
+    "plot": "40",
+    "name": "Thurman Burton Payne",
+    "birth": 1916,
+    "death": 1994
+  },
+  {
+    "section": "A",
+    "plot": "41",
+    "name": "Virginia Louise “Virgie”Howard Payne",
+    "birth": 1890,
+    "death": 1964
+  },
+  {
+    "section": "B",
+    "plot": "55",
+    "name": "Joe Carroll Pearce",
+    "birth": 1932,
+    "death": 1996
+  },
+  {
+    "section": "A",
+    "plot": "13",
+    "name": "Aubry Pharrunknown",
+    "birth": 1915,
+    "death": 1915
+  },
+  {
+    "section": "A",
+    "plot": "22",
+    "name": "Baby Pharrunknown",
+    "birth": 1920,
+    "death": 1920
+  },
+  {
+    "section": "A",
+    "plot": "13",
+    "name": "Boyce Pharrunknown",
+    "birth": 1913,
+    "death": 1913
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Casie Pharr",
+    "birth": 1889,
+    "death": 1912
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Edgar Haylor Pharr",
+    "birth": 1943,
+    "death": 1947
+  },
+  {
+    "section": "A",
+    "plot": "17",
+    "name": "Nora Susan Vaughan Phillips",
+    "birth": 1901,
+    "death": 1927
+  },
+  {
+    "section": "A",
+    "plot": "22",
+    "name": "Alicia A Pickard",
+    "birth": 1983,
+    "death": 1983
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "La Frances Carolyn Ratliff Pickett unknown",
+    "birth": 2011,
+    "death": 2011
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Rev Giles Bingham Pixley",
+    "birth": 1893,
+    "death": 1983
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Margaret “Maggie”Sanders Pixley",
+    "birth": 1899,
+    "death": 1964
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Seth Wayne Poole",
+    "birth": 1994,
+    "death": 2021
+  },
+  {
+    "section": "B",
+    "plot": "6",
+    "name": "Lillie Faye Prence Birth and death dates unknown.",
+    "birth": null,
+    "death": null
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Joe Harold Prince",
+    "birth": 1931,
+    "death": 2024
+  },
+  {
+    "section": "A",
+    "plot": "24",
+    "name": "James Madison “Jim” Pryor",
+    "birth": 1903,
+    "death": 1977
+  },
+  {
+    "section": "A",
+    "plot": "24",
+    "name": "Vida Eliza Mayfield Pryor",
+    "birth": 1896,
+    "death": 1966
+  },
+  {
+    "section": "A",
+    "plot": "60",
+    "name": "Audrey Brown Quarles",
+    "birth": 1921,
+    "death": 2003
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Purdy Lee Hearon Quarles",
+    "birth": 1886,
+    "death": 1930
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ruben Marshall Quarles Oct",
+    "birth": 1883,
+    "death": 1935
+  },
+  {
+    "section": "A",
+    "plot": "60",
+    "name": "Wayman O Quarles VVeteran",
+    "birth": 1918,
+    "death": 1995
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "F. J. Raley",
+    "birth": 1818,
+    "death": 1889
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Danny Joe Rasberry VVeteran",
+    "birth": 1955,
+    "death": 2003
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Jerry Wayne Rasberry",
+    "birth": 1954,
+    "death": 2018
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Joe “Baby” Rasberry",
+    "birth": 1993,
+    "death": 1993
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Tommy Gene Rasberry Jr.",
+    "birth": 1972,
+    "death": 1995
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Tommy Gene Rasberry Sr.",
+    "birth": 1949,
+    "death": 2021
+  },
+  {
+    "section": "B",
+    "plot": "56",
+    "name": "Louisa Franks Ratliff",
+    "birth": 1930,
+    "death": 2003
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Porter Ratliff",
+    "birth": 1932,
+    "death": 2023
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Robert “Bobby” Ray",
+    "birth": 1941,
+    "death": 2020
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Edna Louise Holland Reaves",
+    "birth": 1933,
+    "death": 2011
+  },
+  {
+    "section": "A",
+    "plot": "36",
+    "name": "James Clayton Reddell Jr.",
+    "birth": 1924,
+    "death": 1996
+  },
+  {
+    "section": "B",
+    "plot": "44",
+    "name": "Margorie Mouser Richards",
+    "birth": 1920,
+    "death": 1994
+  },
+  {
+    "section": "A",
+    "plot": "43",
+    "name": "Austin Gladney Robinson",
+    "birth": 1907,
+    "death": 1989
+  },
+  {
+    "section": "A",
+    "plot": "43",
+    "name": "Cecil E Robinson",
+    "birth": 1919,
+    "death": 1973
+  },
+  {
+    "section": "A",
+    "plot": "43",
+    "name": "Chrystelle Barnard Robinson",
+    "birth": 1925,
+    "death": 1980
+  },
+  {
+    "section": "A",
+    "plot": "38",
+    "name": "Edna Haynes Robinson",
+    "birth": 1907,
+    "death": 2003
+  },
+  {
+    "section": "A",
+    "plot": "43",
+    "name": "Jerry W Robinson",
+    "birth": 1942,
+    "death": 2009
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "John William “JW” Robinson",
+    "birth": 1941,
+    "death": 2018
+  },
+  {
+    "section": "A",
+    "plot": "45",
+    "name": "Lillie Mae Brown Robinson",
+    "birth": 1922,
+    "death": 1981
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Nancy W.Weldon Robinson",
+    "birth": 1883,
+    "death": 1961
+  },
+  {
+    "section": "A",
+    "plot": "43",
+    "name": "Sarah Jeruse Morgan Robinson",
+    "birth": 1910,
+    "death": 1991
+  },
+  {
+    "section": "A",
+    "plot": "43",
+    "name": "William Lafayette Robinson",
+    "birth": 1882,
+    "death": 1965
+  },
+  {
+    "section": "A",
+    "plot": "45",
+    "name": "Winfred Elmo Robinson",
+    "birth": 1916,
+    "death": 2005
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Andy Joe Rowe",
+    "birth": 1978,
+    "death": 2020
+  },
+  {
+    "section": "A",
+    "plot": "18",
+    "name": "Catherine “Katie”Cochran Rowland",
+    "birth": 1894,
+    "death": 1974
+  },
+  {
+    "section": "A",
+    "plot": "18",
+    "name": "James William Rowland",
+    "birth": 1892,
+    "death": 1979
+  },
+  {
+    "section": "A",
+    "plot": "49",
+    "name": "Benjamin Elvis Rushton",
+    "birth": 1913,
+    "death": 1988
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Harold Elvis Rushton",
+    "birth": 1942,
+    "death": 2009
+  },
+  {
+    "section": "A",
+    "plot": "49",
+    "name": "Ruth Ann Hanson Rushton",
+    "birth": 1915,
+    "death": 2004
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Emancy Bell Sanders",
+    "birth": 1829,
+    "death": 1898
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Gilbert Calvin Sanders",
+    "birth": 1914,
+    "death": 2004
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Glennie Miller Sanders",
+    "birth": 1926,
+    "death": 2019
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Grover C. Sanders",
+    "birth": 1888,
+    "death": 1957
+  },
+  {
+    "section": "A",
+    "plot": "30",
+    "name": "James Y Sanders VVeteran",
+    "birth": 1914,
+    "death": 1976
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Joe Mattie Camp Sanders",
+    "birth": 1861,
+    "death": 1937
+  },
+  {
+    "section": "A",
+    "plot": "30",
+    "name": "John Henry Sanders",
+    "birth": 1881,
+    "death": 1949
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "John Wesley Sanders",
+    "birth": 1846,
+    "death": 1938
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Nora Marie Gish Wilkerson Sanders",
+    "birth": 1916,
+    "death": 1999
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Nova Short Sanders",
+    "birth": 1892,
+    "death": 1958
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Samuel S Sanders",
+    "birth": 1886,
+    "death": 1975
+  },
+  {
+    "section": "A",
+    "plot": "30",
+    "name": "Sarah ETalley Sanders",
+    "birth": 1898,
+    "death": 1957
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Stella VEvans Sanders",
+    "birth": 1887,
+    "death": 1980
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Verna Marie Sandersunknown",
+    "birth": 1920,
+    "death": 1920
+  },
+  {
+    "section": "A",
+    "plot": "30",
+    "name": "Walker H Sanders",
+    "birth": 1924,
+    "death": 1924
+  },
+  {
+    "section": "B",
+    "plot": "20",
+    "name": "William Gordon Sanders",
+    "birth": 1916,
+    "death": 1993
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "George Washington Sandlin",
+    "birth": 1857,
+    "death": 1901
+  },
+  {
+    "section": "A",
+    "plot": "20",
+    "name": "Infant Daughter Sandlin",
+    "birth": 1892,
+    "death": 1892
+  },
+  {
+    "section": "A",
+    "plot": "20",
+    "name": "Infant Daughter Sandlin",
+    "birth": 1890,
+    "death": 1890
+  },
+  {
+    "section": "A",
+    "plot": "20",
+    "name": "Infant Son Sandlin",
+    "birth": 1893,
+    "death": 1893
+  },
+  {
+    "section": "A",
+    "plot": "20",
+    "name": "Infant Son Sandlin",
+    "birth": 1889,
+    "death": 1889
+  },
+  {
+    "section": "A",
+    "plot": "19",
+    "name": "Mary Margaret Sandlin",
+    "birth": 1891,
+    "death": 1976
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Viola Parizaid Tomlin Sandlin",
+    "birth": 1862,
+    "death": 1916
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lisa Modine Saunders",
+    "birth": 1970,
+    "death": 1979
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Marion Franklin Saunders unknown",
+    "birth": 1990,
+    "death": 1990
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Martha Darlene Saunders",
+    "birth": 1972,
+    "death": 1979
+  },
+  {
+    "section": "B",
+    "plot": "21",
+    "name": "Earnest Lee Scott",
+    "birth": 1927,
+    "death": 1969
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Trixie Virginia Mayfield Scott",
+    "birth": 1931,
+    "death": 2019
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Joseph Samuel “Sam” Sessions",
+    "birth": 1998,
+    "death": 2020
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Arlis Sewell",
+    "birth": 1912,
+    "death": 1913
+  },
+  {
+    "section": "B",
+    "plot": "53",
+    "name": "Artie O'Neal Sewell",
+    "birth": 1909,
+    "death": 1999
+  },
+  {
+    "section": "A",
+    "plot": "34",
+    "name": "B B “Sam” Sewell",
+    "birth": 1895,
+    "death": 1963
+  },
+  {
+    "section": "A",
+    "plot": "34",
+    "name": "Carlton T “Bunk” Sewell",
+    "birth": 1918,
+    "death": 1988
+  },
+  {
+    "section": "B",
+    "plot": "53",
+    "name": "Curtis Ray Sewell",
+    "birth": 1946,
+    "death": 2022
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Dorothy E.Morgan Sewell",
+    "birth": 1919,
+    "death": 1941
+  },
+  {
+    "section": "A",
+    "plot": "34",
+    "name": "Ida HHaynes Sewell",
+    "birth": 1897,
+    "death": 1997
+  },
+  {
+    "section": "A",
+    "plot": "33",
+    "name": "Jim Sewell",
+    "birth": 1901,
+    "death": 1923
+  },
+  {
+    "section": "A",
+    "plot": "40",
+    "name": "L E Sewell",
+    "birth": 1917,
+    "death": 1989
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Loyce Eugene Sewell",
+    "birth": 1939,
+    "death": 1939
+  },
+  {
+    "section": "A",
+    "plot": "40",
+    "name": "Mary GBarnard Sewell",
+    "birth": 1929,
+    "death": 2002
+  },
+  {
+    "section": "A",
+    "plot": "33",
+    "name": "Murdie Dodson Sewell",
+    "birth": 1877,
+    "death": 1939
+  },
+  {
+    "section": "B",
+    "plot": "53",
+    "name": "Paul Sewell",
+    "birth": 1913,
+    "death": 1973
+  },
+  {
+    "section": "A",
+    "plot": "33",
+    "name": "Perlite Sewell",
+    "birth": 1905,
+    "death": 1919
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Richmond Burke Sewell",
+    "birth": 1867,
+    "death": 1937
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Susan Toms Sewell",
+    "birth": 1947,
+    "death": 2003
+  },
+  {
+    "section": "A",
+    "plot": "31",
+    "name": "Veola Elizabeth Mayfield Sewell Mar",
+    "birth": 1873,
+    "death": 1969
+  },
+  {
+    "section": "A",
+    "plot": "33",
+    "name": "W T “Bill” Sewell",
+    "birth": 1869,
+    "death": 1927
+  },
+  {
+    "section": "B",
+    "plot": "54",
+    "name": "Billie Faye Warllick Sexton",
+    "birth": 1936,
+    "death": 2016
+  },
+  {
+    "section": "B",
+    "plot": "54",
+    "name": "James Floyd Sexton",
+    "birth": 1932,
+    "death": 1987
+  },
+  {
+    "section": "unknown",
+    "plot": "N",
+    "name": "Joyce Marie Friday Shirley",
+    "birth": 1940,
+    "death": 2022
+  },
+  {
+    "section": "unknown",
+    "plot": "N",
+    "name": "William W Shirley",
+    "birth": 1934,
+    "death": 2000
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mary Frances “Tot”Burns Shively",
+    "birth": 1932,
+    "death": 2019
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Stan Phillip Shofner",
+    "birth": 1958,
+    "death": 2024
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Catherine E. Short",
+    "birth": 1874,
+    "death": 1928
+  },
+  {
+    "section": "A",
+    "plot": "11",
+    "name": "Infants Short Birth and death dates unknown.",
+    "birth": null,
+    "death": null
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "John D. Short",
+    "birth": 1861,
+    "death": 1943
+  },
+  {
+    "section": "B",
+    "plot": "37",
+    "name": "Doris Haynes Sikes",
+    "birth": 1929,
+    "death": 1991
+  },
+  {
+    "section": "A",
+    "plot": "56",
+    "name": "Doshia H Simmons",
+    "birth": 1903,
+    "death": 1979
+  },
+  {
+    "section": "A",
+    "plot": "56",
+    "name": "Garnett Lorain Simmons",
+    "birth": 1908,
+    "death": 1975
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "David Deleslie Sistrunk VVeteran",
+    "birth": 1942,
+    "death": 2019
+  },
+  {
+    "section": "A",
+    "plot": "18",
+    "name": "Barbara DVaughan Slocum",
+    "birth": 1921,
+    "death": 2003
+  },
+  {
+    "section": "A",
+    "plot": "18",
+    "name": "Blake Gwartney Slocum",
+    "birth": 1918,
+    "death": 1984
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Moses Manuel Smiley",
+    "birth": 1879,
+    "death": 1956
+  },
+  {
+    "section": "B",
+    "plot": "7",
+    "name": "Angela Neal Smith",
+    "birth": 1978,
+    "death": 1990
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Charles Emerson Smith VVeteran",
+    "birth": 1929,
+    "death": 2008
+  },
+  {
+    "section": "B",
+    "plot": "7",
+    "name": "Ernest Connell Smith",
+    "birth": 1901,
+    "death": 1990
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ernest Orville Lee Smith",
+    "birth": 1930,
+    "death": 2012
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Frances Camilla Jones Smith",
+    "birth": 1931,
+    "death": 2021
+  },
+  {
+    "section": "B",
+    "plot": "7",
+    "name": "Lamay Smith Birth and death dates unknown.",
+    "birth": null,
+    "death": null
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Letha Carol Butler Smith",
+    "birth": 1960,
+    "death": 2022
+  },
+  {
+    "section": "B",
+    "plot": "7",
+    "name": "Mattie Irene Green Smith",
+    "birth": 1907,
+    "death": 2003
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lizzie Greer Souter",
+    "birth": 1876,
+    "death": 1960
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Colton Douglas St. Laurent",
+    "birth": 2016,
+    "death": 2016
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Baby Stewart",
+    "birth": 1900,
+    "death": 1900
+  },
+  {
+    "section": "A",
+    "plot": "29",
+    "name": "Kinneth V Stewart",
+    "birth": 1874,
+    "death": 1967
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mary Blaylock Stewart",
+    "birth": 1877,
+    "death": 1931
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ethel L. Summers",
+    "birth": 1907,
+    "death": 1958
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lena Carson Sumner",
+    "birth": 1881,
+    "death": 1908
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Pearl Carson Sumner",
+    "birth": 1886,
+    "death": 1959
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Thurston Sumner",
+    "birth": 1912,
+    "death": 1914
+  },
+  {
+    "section": "A",
+    "plot": "40",
+    "name": "Joshua Taliaferro",
+    "birth": 1980,
+    "death": 1980
+  },
+  {
+    "section": "A",
+    "plot": "40",
+    "name": "Polly Wynne Taliaferro",
+    "birth": 1920,
+    "death": 1985
+  },
+  {
+    "section": "A",
+    "plot": "40",
+    "name": "Roy Eugene Taliaferro",
+    "birth": 1915,
+    "death": 1984
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Annie Elizabeth Campbell Talley",
+    "birth": 1893,
+    "death": 1945
+  },
+  {
+    "section": "A",
+    "plot": "47",
+    "name": "Annie Leona Morris Talley",
+    "birth": 1905,
+    "death": 1988
+  },
+  {
+    "section": "A",
+    "plot": "41",
+    "name": "Archie Monroe Talley",
+    "birth": 1904,
+    "death": 1989
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Bob Talley",
+    "birth": 1948,
+    "death": 2022
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Broncho Bertie Talley",
+    "birth": 1885,
+    "death": 1900
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Casander Marie Richardson Talley",
+    "birth": 1836,
+    "death": 1914
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Cecil Talley",
+    "birth": 1930,
+    "death": 2005
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Delsie Hugh Talley",
+    "birth": 1936,
+    "death": 2016
+  },
+  {
+    "section": "A",
+    "plot": "47",
+    "name": "Donna Smith Talley",
+    "birth": 1940,
+    "death": 1967
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Estell Talley",
+    "birth": 1930,
+    "death": 1933
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ethel ENipper Talley",
+    "birth": 1933,
+    "death": 2008
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Eunice Mooty Talley",
+    "birth": 1887,
+    "death": 1955
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Eunice Evers Talley",
+    "birth": 1915,
+    "death": 2001
+  },
+  {
+    "section": "B",
+    "plot": "61",
+    "name": "Eva Louella Campbell Talley",
+    "birth": 1906,
+    "death": 1973
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Floy Virginia Godwin Talley",
+    "birth": 1939,
+    "death": 2010
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Frances PCrabb Talley",
+    "birth": 1859,
+    "death": 1935
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "George William “Bill” Talley",
+    "birth": 1859,
+    "death": 1939
+  },
+  {
+    "section": "A",
+    "plot": "41",
+    "name": "Gracie Ethel Wyrick Talley",
+    "birth": 1907,
+    "death": 1979
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Grady Henry Talley",
+    "birth": 1891,
+    "death": 1920
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Harmond Wade Talley VVeteran",
+    "birth": 1920,
+    "death": 1945
+  },
+  {
+    "section": "A",
+    "plot": "23",
+    "name": "Hattie Hickman Talley",
+    "birth": 1912,
+    "death": 2006
+  },
+  {
+    "section": "B",
+    "plot": "33",
+    "name": "Helen Mildred Nutt Talley",
+    "birth": 1924,
+    "death": 2000
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Henry Edsel Talley",
+    "birth": 1927,
+    "death": 2012
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Henry Grady Talley",
+    "birth": 1891,
+    "death": 1920
+  },
+  {
     "section": "unknown",
     "plot": "unknown",
     "name": "Herschel Talley",
@@ -1388,46 +5719,46 @@
     "death": 2023
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Infant Daughter Talley",
-    "birth": "unknown",
-    "death": "unknown"
+    "section": "A",
+    "plot": "23",
+    "name": "Infant Daughter Talley Birth and death dates unknown.",
+    "birth": null,
+    "death": null
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Infant Daughter Talley",
-    "birth": "unknown",
-    "death": "unknown"
+    "section": "A",
+    "plot": "27",
+    "name": "Infant Daughter Talley Birth and death dates unknown.",
+    "birth": null,
+    "death": null
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Infant Daughter Talley",
-    "birth": "unknown",
-    "death": "unknown"
+    "section": "A",
+    "plot": "23",
+    "name": "Infant Daughter Talley Birth and death dates unknown.",
+    "birth": null,
+    "death": null
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Infant Son Talley",
-    "birth": "unknown",
-    "death": "unknown"
+    "section": "A",
+    "plot": "25",
+    "name": "Infant Son Talley Birth and death dates unknown.",
+    "birth": null,
+    "death": null
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Infant Son Talley",
-    "birth": "unknown",
-    "death": "unknown"
+    "section": "A",
+    "plot": "27",
+    "name": "Infant Son Talley Birth and death dates unknown.",
+    "birth": null,
+    "death": null
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
-    "name": "Infant Son Talley",
-    "birth": "unknown",
-    "death": "unknown"
+    "section": "A",
+    "plot": "25",
+    "name": "Infant Son Talley Birth and death dates unknown.",
+    "birth": null,
+    "death": null
   },
   {
     "section": "unknown",
@@ -1437,15 +5768,15 @@
     "death": 1908
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "23",
     "name": "James Bennett Talley",
     "birth": 1884,
     "death": 1965
   },
   {
-    "section": "unknown",
-    "plot": "unknown",
+    "section": "A",
+    "plot": "23",
     "name": "James Edgar Talley",
     "birth": 1911,
     "death": 1985
@@ -1454,7 +5785,1344 @@
     "section": "unknown",
     "plot": "unknown",
     "name": "James Frank Talley",
+    "birth": 1895,
+    "death": 1940
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Herschel Talley",
+    "birth": 1938,
+    "death": 2023
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Jones Talley",
+    "birth": 1834,
+    "death": 1897
+  },
+  {
+    "section": "A",
+    "plot": "25",
+    "name": "James Madison Talley",
+    "birth": 1888,
+    "death": 1963
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Robert Talley",
+    "birth": 1948,
+    "death": 2022
+  },
+  {
+    "section": "B",
+    "plot": "32",
+    "name": "Jane Wise Talley",
+    "birth": 1931,
+    "death": 2021
+  },
+  {
+    "section": "A",
+    "plot": "26",
+    "name": "John Corbin Talley",
+    "birth": 1892,
+    "death": 1969
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Rev John David Talley",
+    "birth": 1961,
+    "death": 2019
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "John Richard Talley",
+    "birth": 1887,
+    "death": 1888
+  },
+  {
+    "section": "B",
+    "plot": "34",
+    "name": "John Sidney Talley VVeteran",
+    "birth": 1922,
+    "death": 2005
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "John Thomas Talley",
     "birth": 1935,
-    "death": 2014
+    "death": 2020
+  },
+  {
+    "section": "A",
+    "plot": "42",
+    "name": "Lelia Ruth Henry Talley",
+    "birth": 1926,
+    "death": 2005
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Leona Parizaid Talley",
+    "birth": 1897,
+    "death": 1924
+  },
+  {
+    "section": "A",
+    "plot": "25",
+    "name": "Lillian Mooty Talley",
+    "birth": 1893,
+    "death": 1968
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lillie Talley",
+    "birth": 1893,
+    "death": 1894
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lillie Belle Campbell Talley",
+    "birth": 1899,
+    "death": 1923
+  },
+  {
+    "section": "B",
+    "plot": "41",
+    "name": "Lucille Johnson Talley",
+    "birth": 1913,
+    "death": 1985
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Magdalene E.Thraen Talley",
+    "birth": 1915,
+    "death": 2006
+  },
+  {
+    "section": "B",
+    "plot": "61",
+    "name": "Marvin Andrew Talley",
+    "birth": 1902,
+    "death": 1978
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mary Eliza Talley",
+    "birth": 1857,
+    "death": 1932
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mary Emma Tomlin Talley",
+    "birth": 1868,
+    "death": 1957
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mary Lucinda Mc Kinley Talley",
+    "birth": 1851,
+    "death": 1930
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mary Nora Haynes Talley",
+    "birth": 1900,
+    "death": 1948
+  },
+  {
+    "section": "A",
+    "plot": "25",
+    "name": "Maryann Elizabeth Harrison Talley",
+    "birth": 1862,
+    "death": 1935
+  },
+  {
+    "section": "A",
+    "plot": "47",
+    "name": "Millage Talley",
+    "birth": 1899,
+    "death": 1967
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Noveleene BBradley Talleyunknown",
+    "birth": 1934,
+    "death": 1934
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Obediah Abel “Fed” Talley",
+    "birth": 1860,
+    "death": 1942
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Oscar Alvis Talley",
+    "birth": 1915,
+    "death": 2002
+  },
+  {
+    "section": "B",
+    "plot": "34",
+    "name": "Rubye Faye Wynne Talley",
+    "birth": 1923,
+    "death": 1982
+  },
+  {
+    "section": "B",
+    "plot": "41",
+    "name": "Samuel Aubrey Talley",
+    "birth": 1912,
+    "death": 1971
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Samuel Winton Talley",
+    "birth": 1930,
+    "death": 1944
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Sarah Deliah “Dellie”Tomlin Talley",
+    "birth": 1866,
+    "death": 1932
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Sarah E. Talley",
+    "birth": 1888,
+    "death": 1891
+  },
+  {
+    "section": "B",
+    "plot": "32",
+    "name": "Thomas Earl Talley",
+    "birth": 1929,
+    "death": 2012
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Thomas Harris Talley",
+    "birth": 1848,
+    "death": 1930
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Thomas Moses “Doc” Talley",
+    "birth": 1863,
+    "death": 1928
+  },
+  {
+    "section": "A",
+    "plot": "42",
+    "name": "Thomas Raymond “Red” Talley VVeteran",
+    "birth": 1921,
+    "death": 1999
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Thomas Wayne Talley",
+    "birth": 1950,
+    "death": 2011
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Thurman Moody Talley",
+    "birth": 1907,
+    "death": 1969
+  },
+  {
+    "section": "B",
+    "plot": "33",
+    "name": "Virgil Rena Talley",
+    "birth": 1924,
+    "death": 1975
+  },
+  {
+    "section": "A",
+    "plot": "42",
+    "name": "Virginia Jo Talley Jul Jul",
+    "birth": 1947,
+    "death": 1947
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "William Jones Talley",
+    "birth": 1889,
+    "death": 1954
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "William Owen Talley VVeteran",
+    "birth": 1914,
+    "death": 2007
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "David Wymon Taylor",
+    "birth": 1945,
+    "death": 2016
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Gerald Keith Tibbit VVeteran",
+    "birth": 1927,
+    "death": 1950
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Alice Matthews Tomlin",
+    "birth": 1852,
+    "death": 1932
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Elizabeth Jane Tomlin",
+    "birth": 1870,
+    "death": 1881
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Francis Marion “Frank” Tomlin",
+    "birth": 1831,
+    "death": 1905
+  },
+  {
+    "section": "A",
+    "plot": "37",
+    "name": "Ira Whitaker Tomlin",
+    "birth": 1890,
+    "death": 1942
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mary Anderson Tomlin",
+    "birth": 1833,
+    "death": 1882
+  },
+  {
+    "section": "A",
+    "plot": "22",
+    "name": "Mary Hortense Tomlin",
+    "birth": 1885,
+    "death": 1898
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Olly Tomlin",
+    "birth": 1890,
+    "death": 1890
+  },
+  {
+    "section": "A",
+    "plot": "21",
+    "name": "William Sanford Tomlin",
+    "birth": 1893,
+    "death": 1897
+  },
+  {
+    "section": "A",
+    "plot": "18",
+    "name": "Arthur Bryant Vaughan",
+    "birth": 1897,
+    "death": 1968
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A17",
+    "name": "Aurillia Lenora Tomlin Vaughan",
+    "birth": 1859,
+    "death": 1915
+  },
+  {
+    "section": "A",
+    "plot": "17",
+    "name": "Bertha LSewell Vaughan",
+    "birth": 1898,
+    "death": 1992
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Calvin C Vaughan",
+    "birth": 1934,
+    "death": 1935
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Colie Vaughan",
+    "birth": 1882,
+    "death": 1941
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Curtis Vaughan",
+    "birth": 1930,
+    "death": 2009
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Emmette Perry Vaughan",
+    "birth": 1929,
+    "death": 1997
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A18",
+    "name": "Frances Ollie Millsaps Vaughan",
+    "birth": 1827,
+    "death": 1897
+  },
+  {
+    "section": "B",
+    "plot": "48",
+    "name": "Grady G Vaughan",
+    "birth": 1927,
+    "death": 1975
+  },
+  {
+    "section": "A",
+    "plot": "17",
+    "name": "Gus Vaughan",
+    "birth": 1894,
+    "death": 1972
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A17",
+    "name": "Howell E Vaughan",
+    "birth": 1857,
+    "death": 1913
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Howell E. Vaughan",
+    "birth": 1884,
+    "death": 1884
+  },
+  {
+    "section": "A",
+    "plot": "42",
+    "name": "Jackie R Vaughan",
+    "birth": 1943,
+    "death": 1943
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Vaughan",
+    "birth": 1882,
+    "death": 1948
+  },
+  {
+    "section": "A",
+    "plot": "17",
+    "name": "James H Vaughan",
+    "birth": 1884,
+    "death": 1929
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Jannie Lavelle Evers Vaughan",
+    "birth": 1937,
+    "death": 2023
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A18",
+    "name": "Dr John Thomas “J.T.” Vaughan",
+    "birth": 1855,
+    "death": 1926
+  },
+  {
+    "section": "A",
+    "plot": "42",
+    "name": "Judy C Vaughan",
+    "birth": 1943,
+    "death": 1943
+  },
+  {
+    "section": "B",
+    "plot": "48",
+    "name": "Lula Faye Malone Vaughan",
+    "birth": 1931,
+    "death": 2001
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A18",
+    "name": "Mary Eliza Talley Vaughan",
+    "birth": 1857,
+    "death": 1932
+  },
+  {
+    "section": "B",
+    "plot": "48",
+    "name": "Melinda Vaughan",
+    "birth": 1962,
+    "death": 1962
+  },
+  {
+    "section": "B",
+    "plot": "25",
+    "name": "Michael Wade Vaughan",
+    "birth": 1922,
+    "death": 1994
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mike Wayne Vaughan",
+    "birth": 1955,
+    "death": 2024
+  },
+  {
+    "section": "B",
+    "plot": "25",
+    "name": "Mildred Moore Vaughan",
+    "birth": 1926,
+    "death": 2003
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Nelda Alverne Wynn Vaughan",
+    "birth": 1939,
+    "death": 2020
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Prince Albert Vaughan",
+    "birth": 1912,
+    "death": 1913
+  },
+  {
+    "section": "B",
+    "plot": "26",
+    "name": "Ray Dean Vaughan",
+    "birth": 1918,
+    "death": 1996
+  },
+  {
+    "section": "B",
+    "plot": "26",
+    "name": "Richard Madison Vaughan Jr.",
+    "birth": 1923,
+    "death": 2001
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Richard Michael Vaughan",
+    "birth": 1959,
+    "death": 2023
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Sarah Vaughan",
+    "birth": 1887,
+    "death": 1894
+  },
+  {
+    "section": "A",
+    "plot": "18",
+    "name": "Thomas Albert Vaughan",
+    "birth": 1885,
+    "death": 1968
+  },
+  {
+    "section": "B",
+    "plot": "26",
+    "name": "Thomas Gerald Vaughan",
+    "birth": 1921,
+    "death": 1995
+  },
+  {
+    "section": "A",
+    "plot": "9",
+    "name": "Virgil Vaughan Birth and death dates unknown.",
+    "birth": null,
+    "death": null
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Wilbern Fate Vaughan VVeteran",
+    "birth": 1930,
+    "death": 2011
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "William E. Vaughan",
+    "birth": 1895,
+    "death": 1952
+  },
+  {
+    "section": "unknown",
+    "plot": "Row A18",
+    "name": "William Henry “W. H.” Vaughan",
+    "birth": 1827,
+    "death": 1904
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Alaska Talma Beene Vaughn",
+    "birth": 1893,
+    "death": 1955
+  },
+  {
+    "section": "A",
+    "plot": "41",
+    "name": "Jackie Vaughn",
+    "birth": 1943,
+    "death": 1943
+  },
+  {
+    "section": "B",
+    "plot": "41",
+    "name": "Judy Vaughn",
+    "birth": 1943,
+    "death": 1943
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Rita Elaine Sewell Vaughn",
+    "birth": 1953,
+    "death": 2018
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "William Henry Vaughn",
+    "birth": 1889,
+    "death": 1967
+  },
+  {
+    "section": "A",
+    "plot": "59",
+    "name": "Julius Charles Vernon",
+    "birth": 1929,
+    "death": 1973
+  },
+  {
+    "section": "A",
+    "plot": "59",
+    "name": "Willie May Vernonunknown",
+    "birth": 1918,
+    "death": 1918
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James William Vines",
+    "birth": 1927,
+    "death": 1998
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ollie Ruth Poole Vines",
+    "birth": 1930,
+    "death": 2001
+  },
+  {
+    "section": "B",
+    "plot": "54",
+    "name": "Susie Mae Vines",
+    "birth": 1906,
+    "death": 1979
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Victoria Netherton Vines",
+    "birth": 1960,
+    "death": 2019
+  },
+  {
+    "section": "B",
+    "plot": "54",
+    "name": "Virginia Madeline Vines",
+    "birth": 1943,
+    "death": 1970
+  },
+  {
+    "section": "B",
+    "plot": "14",
+    "name": "Calvin Warren Walker",
+    "birth": 1902,
+    "death": 1994
+  },
+  {
+    "section": "B",
+    "plot": "14",
+    "name": "Mary Zera Mayfield Walker",
+    "birth": 1903,
+    "death": 1986
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Thomas Boyd Walker",
+    "birth": 1955,
+    "death": 2003
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Troy Waller VVeteran",
+    "birth": 1946,
+    "death": 2021
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Beulah Caswell Warlick",
+    "birth": 1874,
+    "death": 1927
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Irene JMc Callon Warlick",
+    "birth": 1921,
+    "death": 2009
+  },
+  {
+    "section": "A",
+    "plot": "12",
+    "name": "James Wilton Warlick",
+    "birth": 1906,
+    "death": 1973
+  },
+  {
+    "section": "A",
+    "plot": "12",
+    "name": "Lillie Florence O'Neal Warlick",
+    "birth": 1901,
+    "death": 1967
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Monroe G Warlick",
+    "birth": 1920,
+    "death": 2005
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Ray Elmer Warlick",
+    "birth": 1923,
+    "death": 2008
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Vessar Faye Cheatham Warlick",
+    "birth": 1935,
+    "death": 2012
+  },
+  {
+    "section": "A",
+    "plot": "12",
+    "name": "Walter Mack Warlick Oct",
+    "birth": 1899,
+    "death": 1979
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "William Warlick",
+    "birth": 1862,
+    "death": 1940
+  },
+  {
+    "section": "A",
+    "plot": "39",
+    "name": "Austin T Watson",
+    "birth": 1951,
+    "death": 2000
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Isaac Watson",
+    "birth": 1948,
+    "death": 2022
+  },
+  {
+    "section": "B",
+    "plot": "46",
+    "name": "Francille Greer Weible",
+    "birth": 1925,
+    "death": 2009
+  },
+  {
+    "section": "B",
+    "plot": "46",
+    "name": "Ralph Dean Weible",
+    "birth": 1927,
+    "death": 1996
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Charles “Charlie” Wells",
+    "birth": 1948,
+    "death": 2023
+  },
+  {
+    "section": "A",
+    "plot": "43",
+    "name": "Charles Freddy Wells Sr.",
+    "birth": 1918,
+    "death": 1984
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "John William “Johnie” West",
+    "birth": 1870,
+    "death": 1902
+  },
+  {
+    "section": "A",
+    "plot": "25",
+    "name": "Lucy West",
+    "birth": 1915,
+    "death": 1992
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Luda Viola West",
+    "birth": 1898,
+    "death": 1902
+  },
+  {
+    "section": "B",
+    "plot": "35",
+    "name": "Ervis Manswell Whaley VVeteran",
+    "birth": 1917,
+    "death": 2009
+  },
+  {
+    "section": "B",
+    "plot": "35",
+    "name": "Ethel Talley Whaley",
+    "birth": 1919,
+    "death": 1981
+  },
+  {
+    "section": "A",
+    "plot": "33",
+    "name": "Clarence Edwin Whitley",
+    "birth": 1938,
+    "death": 1962
+  },
+  {
+    "section": "A",
+    "plot": "33",
+    "name": "Clarence Jackson Whitley",
+    "birth": 1891,
+    "death": 1949
+  },
+  {
+    "section": "A",
+    "plot": "33",
+    "name": "Doris Lorene Whitley",
+    "birth": 1920,
+    "death": 1922
+  },
+  {
+    "section": "A",
+    "plot": "24",
+    "name": "Estelle P Whitley",
+    "birth": 1905,
+    "death": 1971
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Eugenia David Landers Whitley",
+    "birth": 1862,
+    "death": 1938
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Henry B. Whitley",
+    "birth": 1901,
+    "death": 1957
+  },
+  {
+    "section": "A",
+    "plot": "33",
+    "name": "Homer Harlan Whitley",
+    "birth": 1922,
+    "death": 1922
+  },
+  {
+    "section": "A",
+    "plot": "33",
+    "name": "Infant Daughter Whitley",
+    "birth": 1951,
+    "death": 1951
+  },
+  {
+    "section": "A",
+    "plot": "33",
+    "name": "Infant Son Whitley",
+    "birth": 1949,
+    "death": 1949
+  },
+  {
+    "section": "A",
+    "plot": "33",
+    "name": "Lona Louise Whitley",
+    "birth": 1898,
+    "death": 1980
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Robert Byron Whitley",
+    "birth": 1933,
+    "death": 2022
+  },
+  {
+    "section": "A",
+    "plot": "43",
+    "name": "James Alton Williamsunknown",
+    "birth": 1942,
+    "death": 1942
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Monroe “Jimbo” Williams",
+    "birth": 1919,
+    "death": 2006
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mattie Lee Tucker Williams",
+    "birth": 1917,
+    "death": 2006
+  },
+  {
+    "section": "A",
+    "plot": "43",
+    "name": "Phyllis Diane Robinson Williams",
+    "birth": 1946,
+    "death": 1987
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "E. M. Williamson",
+    "birth": 1897,
+    "death": 1905
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Joseph E. Williamson",
+    "birth": 1840,
+    "death": 1917
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Mary H. Williamson",
+    "birth": 1843,
+    "death": 1911
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Sallie Williamson",
+    "birth": 1878,
+    "death": 1883
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "W. C. Williamson",
+    "birth": 1881,
+    "death": 1909
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Paulette Whitley Wilson",
+    "birth": 1946,
+    "death": 2024
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Tony T Wilson",
+    "birth": 1947,
+    "death": 2012
+  },
+  {
+    "section": "A",
+    "plot": "14",
+    "name": "Herbert William Winn",
+    "birth": 1918,
+    "death": 1990
+  },
+  {
+    "section": "A",
+    "plot": "14",
+    "name": "John Gladney “JG” Winn",
+    "birth": 1884,
+    "death": 1987
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Lola M.Mc Mahen Winn",
+    "birth": 1893,
+    "death": 1954
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Albert Austin Wise VVeteran",
+    "birth": 1934,
+    "death": 2022
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Austin Wise",
+    "birth": 1909,
+    "death": 1973
+  },
+  {
+    "section": "A",
+    "plot": "61",
+    "name": "Duane Alden Wise",
+    "birth": 1927,
+    "death": 1995
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Eva Lena Burns Wise",
+    "birth": 1905,
+    "death": 1993
+  },
+  {
+    "section": "unknown",
+    "plot": "N",
+    "name": "James Phillip Wise",
+    "birth": 1948,
+    "death": 1949
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Rudolph Wise",
+    "birth": 1930,
+    "death": 2009
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "James Rudolph “Rudy” Wise Jr.VVeteran",
+    "birth": 1954,
+    "death": 1975
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Tony Ray Wiseunknown",
+    "birth": 1964,
+    "death": 1964
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Shirley Jean Morgan Wood",
+    "birth": 1935,
+    "death": 2016
+  },
+  {
+    "section": "A",
+    "plot": "58",
+    "name": "Jake L Word VVeteran",
+    "birth": 1912,
+    "death": 1997
+  },
+  {
+    "section": "A",
+    "plot": "14",
+    "name": "Charles David Wright",
+    "birth": 1896,
+    "death": 1945
+  },
+  {
+    "section": "A",
+    "plot": "14",
+    "name": "Infant Son Wright",
+    "birth": 1898,
+    "death": 1898
+  },
+  {
+    "section": "A",
+    "plot": "14",
+    "name": "Lillie Alvie Wright",
+    "birth": 1894,
+    "death": 1895
+  },
+  {
+    "section": "A",
+    "plot": "14",
+    "name": "Mary Lee Wright",
+    "birth": 1871,
+    "death": 1956
+  },
+  {
+    "section": "A",
+    "plot": "14",
+    "name": "Samuel Green Wright",
+    "birth": 1872,
+    "death": 1954
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Jimmy Duke Wynn",
+    "birth": 1937,
+    "death": 2020
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Nedra Ann Campbell Wynn",
+    "birth": 1941,
+    "death": 2009
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Archie Dee Wynne",
+    "birth": 1912,
+    "death": 1991
+  },
+  {
+    "section": "A",
+    "plot": "42",
+    "name": "Beatrice HHadley Wynne",
+    "birth": 1924,
+    "death": 2001
+  },
+  {
+    "section": "B",
+    "plot": "17",
+    "name": "Charles Melvin Wynne Sr.",
+    "birth": 1943,
+    "death": 1980
+  },
+  {
+    "section": "A",
+    "plot": "35",
+    "name": "Cornelius Wynne",
+    "birth": 1917,
+    "death": 1918
+  },
+  {
+    "section": "A",
+    "plot": "35",
+    "name": "Dale Wynne",
+    "birth": 1915,
+    "death": 1919
+  },
+  {
+    "section": "A",
+    "plot": "42",
+    "name": "Daniel Mike Wynne",
+    "birth": 1945,
+    "death": 1988
+  },
+  {
+    "section": "A",
+    "plot": "42",
+    "name": "Elmer Mike Wynne",
+    "birth": 1920,
+    "death": 1981
+  },
+  {
+    "section": "B",
+    "plot": "56",
+    "name": "Emma Franks Wynne",
+    "birth": 1883,
+    "death": 1981
+  },
+  {
+    "section": "A",
+    "plot": "38",
+    "name": "Ernest Leland Wynne",
+    "birth": 1907,
+    "death": 1986
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Infant Wynne",
+    "birth": 1926,
+    "death": 1926
+  },
+  {
+    "section": "A",
+    "plot": "35",
+    "name": "John Thomas Wynne",
+    "birth": 1885,
+    "death": 1920
+  },
+  {
+    "section": "A",
+    "plot": "42",
+    "name": "Lester C Wynne",
+    "birth": 1948,
+    "death": 1948
+  },
+  {
+    "section": "A",
+    "plot": "35",
+    "name": "Mary Frances “Fannie”Vaughan Wynne",
+    "birth": 1885,
+    "death": 1939
+  },
+  {
+    "section": "B",
+    "plot": "17",
+    "name": "Melvin Frances Wynne",
+    "birth": 1910,
+    "death": 1993
+  },
+  {
+    "section": "A",
+    "plot": "35",
+    "name": "Minnie Mae Wynne Oct",
+    "birth": 1892,
+    "death": 1935
+  },
+  {
+    "section": "A",
+    "plot": "38",
+    "name": "Naomi Haynes Wynne",
+    "birth": 1907,
+    "death": 1986
+  },
+  {
+    "section": "B",
+    "plot": "17",
+    "name": "Nora Odessa Cason Wynne",
+    "birth": 1916,
+    "death": 2012
+  },
+  {
+    "section": "B",
+    "plot": "42",
+    "name": "Norma Vera Mouser Wynne",
+    "birth": 1916,
+    "death": 1978
+  },
+  {
+    "section": "A",
+    "plot": "39",
+    "name": "Oliver Eldridge Wynne",
+    "birth": 1908,
+    "death": 1966
+  },
+  {
+    "section": "A",
+    "plot": "35",
+    "name": "Robert Howell Wynne",
+    "birth": 1915,
+    "death": 1934
+  },
+  {
+    "section": "A",
+    "plot": "39",
+    "name": "Vernice Sewell Wynne",
+    "birth": 1909,
+    "death": 1943
+  },
+  {
+    "section": "B",
+    "plot": "42",
+    "name": "William Coy Wynne",
+    "birth": 1887,
+    "death": 1967
+  },
+  {
+    "section": "unknown",
+    "plot": "unknown",
+    "name": "Zada Inez Sewell Wynne",
+    "birth": 1916,
+    "death": 1986
+  },
+  {
+    "section": "A",
+    "plot": "36",
+    "name": "Infant Daughter Zappa",
+    "birth": 1919,
+    "death": 1919
+  },
+  {
+    "section": "A",
+    "plot": "36",
+    "name": "Mary Lou Zappa",
+    "birth": 1890,
+    "death": 1942
   }
 ]
