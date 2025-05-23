@@ -135,7 +135,11 @@
             const grid = document.createElement('div');
             grid.className = 'section-grid';
 
-            sections[section].forEach(b => {
+            sections[section].sort((a, b) => {
+                const plotA = parseInt(a.plot) || 0;
+                const plotB = parseInt(b.plot) || 0;
+                return plotA - plotB;
+            }).forEach(b => {
                 const plotDiv = document.createElement('div');
                 plotDiv.className = 'plot';
 
